@@ -1,0 +1,4590 @@
+{
+ "lang": "fr",
+ "meta": {
+  "client": "ONDEX",
+  "partner": "Salesforce",
+  "topic": "PVC bi-orienté",
+  "audience": "executive",
+  "title": "ONDEX | Salesforce — Chaque plaque, de l’usine au chantier",
+  "loader": "ONDEX · PVC bi-orienté"
+ },
+ "brand": {
+  "primary": "#0A3D54",
+  "secondary": "#00697B",
+  "accent": "#00697B"
+ },
+ "world": {
+  "layout": "compact",
+  "relief": "hills",
+  "landscape": {
+   "preset": "temperate",
+   "cattle": true,
+   "pal": {
+    "warm": {
+     "FA": "#E8D9A0",
+     "FB": "#C9DA9E",
+     "FC": "#E6D682",
+     "ROOF": "#C8735A"
+    }
+   }
+  }
+ },
+ "intro": {
+  "eyebrow": "Art du possible · PVC bi-orienté",
+  "title": "Chaque plaque, de l’usine au chantier.",
+  "text": "Un agent aux côtés de chaque équipe ONDEX, des lignes de bi-orientation de Chevigny jusqu’aux négoces, aux exploitations et aux toitures solaires.",
+  "cta": "Parcourir l’opération"
+ },
+ "stages": [
+  {
+   "id": "usine",
+   "kit": "pvc_plant",
+   "tags": [
+    "production",
+    "planning"
+   ],
+   "label": "Usine",
+   "eyebrow": "Chevigny-Saint-Sauveur · production",
+   "title": "Extruder, bi-orienter, contrôler",
+   "text": "Formulation, coextrusion anti-UV et bi-étirage : chaque plaque naît sur les lignes de Chevigny, près de Dijon, depuis 1965.",
+   "fig": {
+    "v": 5,
+    "suf": " ha",
+    "cap": "un site unique : production, R&D et administration",
+    "src": "La Gazette France, 2025"
+   },
+   "rows": [
+    [
+     "Procédé",
+     "bi-orientation, inventée et brevetée en 1964"
+    ],
+    [
+     "Savoir-faire",
+     "coextrusion anti-UV, formulations mises au point sur site"
+    ]
+   ],
+   "signs": {
+    "plant": "USINE DE CHEVIGNY",
+    "office": "ADV · SERVICE CLIENT"
+   },
+   "points": [
+    {
+     "anchor": "line",
+     "usecase": "usine-voix-client-rd"
+    },
+    {
+     "anchor": "control",
+     "usecase": "usine-campagnes-visibles"
+    },
+    {
+     "anchor": "lab",
+     "usecase": "usine-reclamation-lot"
+    }
+   ],
+   "shot": {
+    "cuts": "used"
+   }
+  },
+  {
+   "id": "stock",
+   "kit": "pvc_stock",
+   "tags": [
+    "logistics"
+   ],
+   "label": "Stock et expéditions",
+   "eyebrow": "Logistique · Chevigny",
+   "title": "Le bon lot, dans le bon camion",
+   "text": "Plaques ondulées et planes, pièces spéciales et accessoires sont préparés, chargés et expédiés vers les négoces, les chantiers et l’export.",
+   "fig": {
+    "v": 16,
+    "cap": "gammes au catalogue, d’ONDEX HR à ONDEX SOLAR",
+    "src": "ondex.com, 2026"
+   },
+   "rows": [
+    [
+     "Applications",
+     "bâtiment, agriculture, serres, protection, photovoltaïque, bricolage"
+    ]
+   ],
+   "signs": {
+    "plant": "STOCK ET EXPÉDITIONS"
+   },
+   "points": [
+    {
+     "anchor": "forklifts",
+     "usecase": "entrepot-commande-directe"
+    },
+    {
+     "anchor": "docks",
+     "usecase": "entrepot-suivi-livraison"
+    },
+    {
+     "anchor": "yard",
+     "usecase": "entrepot-franco-zone"
+    }
+   ]
+  },
+  {
+   "id": "export",
+   "same_as": "stock",
+   "tags": [
+    "b2b_customers",
+    "partners"
+   ],
+   "label": "Export",
+   "icon": "<path d='M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18'/>",
+   "eyebrow": "Export · Europe",
+   "title": "Grandir à l’export, pays par pays",
+   "text": "Distributeurs et clients en Europe : depuis Chevigny, chaque marché se développe avec son réseau de distribution.",
+   "fig": {
+    "v": 24,
+    "cap": "pays où opère le groupe AIAC, actionnaire d’ONDEX depuis 2025",
+    "src": "AIAC, 2025"
+   },
+   "rows": [
+    [
+     "Marchés",
+     "bâtiment, stades, serres, élevages, logistique, bricolage"
+    ],
+    [
+     "Site web",
+     "en français, anglais et allemand"
+    ]
+   ],
+   "points": [
+    {
+     "anchor": "depart",
+     "usecase": "export-pilotage-pays"
+    },
+    {
+     "anchor": "office",
+     "usecase": "export-sedentaire-ia"
+    },
+    {
+     "anchor": "loading",
+     "usecase": "export-veille-marche"
+    }
+   ]
+  },
+  {
+   "id": "negoce",
+   "kit": "negoce",
+   "tags": [
+    "retail_network",
+    "b2b_customers"
+   ],
+   "label": "Négoces et GSB",
+   "eyebrow": "Distribution · négoces et bricolage",
+   "title": "Le réseau qui revend chaque plaque",
+   "text": "Négoces de matériaux et enseignes de bricolage : là où artisans et particuliers trouvent les plaques ONDEX.",
+   "fig": {
+    "v": 6,
+    "cap": "domaines d’application, du bâtiment au bricolage",
+    "src": "ondex.com, 2026"
+   },
+   "rows": [
+    [
+     "Canaux",
+     "négoces de matériaux · grandes surfaces de bricolage"
+    ]
+   ],
+   "signs": {
+    "gsb": "BRICOLAGE",
+    "negoce": "NÉGOCE MATÉRIAUX"
+   },
+   "points": [
+    {
+     "anchor": "rayon",
+     "usecase": "negoce-accords-cadres"
+    },
+    {
+     "anchor": "comptoir",
+     "usecase": "negoce-devis-express"
+    },
+    {
+     "anchor": "yard",
+     "usecase": "negoce-portail-b2b"
+    }
+   ]
+  },
+  {
+   "id": "chantier",
+   "kit": "chantier",
+   "tags": [
+    "field_service",
+    "partners"
+   ],
+   "label": "Chantiers et poseurs",
+   "eyebrow": "Terrain · couvreurs et prescripteurs",
+   "title": "Bien prescrit, bien posé",
+   "text": "Charpentiers, couvreurs et bureaux d’études choisissent et posent les plaques ; le technico-commercial les accompagne, du devis à la pose.",
+   "fig": {
+    "v": 4,
+    "pre": "×",
+    "cap": "résistance plus de 4 fois supérieure à celle du PVC non bi-orienté",
+    "src": "ondex.com, 2026"
+   },
+   "rows": [
+    [
+     "Poids",
+     "2,4 kg/m², contre 7 pour l’acier et 12 pour le fibrociment"
+    ]
+   ],
+   "signs": {
+    "site": "CHANTIER"
+   },
+   "points": [
+    {
+     "anchor": "rep",
+     "usecase": "chantier-visite-mobile"
+    },
+    {
+     "anchor": "hut",
+     "usecase": "chantier-prescription"
+    },
+    {
+     "anchor": "roofers",
+     "usecase": "chantier-assistance-pose"
+    }
+   ]
+  },
+  {
+   "id": "agri",
+   "kit": "agri_serres",
+   "tags": [
+    "b2b_customers",
+    "consumers"
+   ],
+   "label": "Élevages et serres",
+   "eyebrow": "Agriculture · élevage et maraîchage",
+   "title": "La lumière juste, pour chaque culture",
+   "text": "Bâtiments d’élevage, serres et jardineries : plaques translucides, faîtages éclairants et brise-vent font entrer la lumière et l’air.",
+   "fig": {
+    "v": 100,
+    "suf": " %",
+    "cap": "de lumière diffusée par la nouvelle plaque translucide DIFFU100",
+    "src": "ondex.com, 2026"
+   },
+   "rows": [
+    [
+     "Serres",
+     "ONDEX BIO 1, 2 et 3 · 4 nuances, du cristal à l’opaque"
+    ],
+    [
+     "Élevage",
+     "lanterneaux, PERFOLUX, PERFO2"
+    ]
+   ],
+   "points": [
+    {
+     "anchor": "cultures",
+     "usecase": "agri-conseil-lumiere"
+    },
+    {
+     "anchor": "herd",
+     "usecase": "agri-avant-saison"
+    },
+    {
+     "anchor": "cour",
+     "usecase": "agri-salons-affaires"
+    }
+   ],
+   "shot": {
+    "cuts": "used"
+   }
+  },
+  {
+   "id": "solaire",
+   "same_as": "agri",
+   "tags": [
+    "partners"
+   ],
+   "label": "ONDEX SOLAR",
+   "icon": "<path d='M12 4V2M12 22v-2M4 12H2M22 12h-2M6.3 6.3 4.9 4.9M19.1 19.1l-1.4-1.4M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4M8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0'/>",
+   "eyebrow": "Photovoltaïque en surimposition",
+   "title": "Le solaire sur les toitures existantes",
+   "text": "FIX O Bat pour le bâtiment, FIX O Ser pour la serre : des panneaux posés sur plaques ONDEX, en neuf comme en rénovation, en conservant la charpente.",
+   "fig": {
+    "v": 2.4,
+    "suf": " kg/m²",
+    "cap": "pour la plaque, contre jusqu’à 17 kg/m² pour le fibrociment",
+    "src": "ONDEX, communiqué ONDEX SOLAR"
+   },
+   "rows": [
+    [
+     "Certification",
+     "ETN"
+    ],
+    [
+     "Partenaires",
+     "installateurs spécialisés"
+    ]
+   ],
+   "points": [
+    {
+     "anchor": "pv",
+     "usecase": "solaire-projet-pv"
+    },
+    {
+     "anchor": "installer",
+     "usecase": "solaire-academie"
+    },
+    {
+     "anchor": "scaffold",
+     "usecase": "solaire-reseau-installateurs"
+    }
+   ],
+   "shot": {
+    "cuts": "used"
+   }
+  },
+  {
+   "id": "siege",
+   "same_as": "usine",
+   "tags": [
+    "contact_center",
+    "planning"
+   ],
+   "label": "Siège · service client",
+   "icon": "<path d='M4 13a8 8 0 0 1 16 0v5h-4v-5M4 13v5h4v-5'/>",
+   "eyebrow": "Chevigny · ADV, SAV et direction",
+   "title": "Chaque client suivi, chaque marge visible",
+   "text": "Administration des ventes, service après-vente, marketing et direction commerciale travaillent sur le même site que l’usine.",
+   "fig": {
+    "v": 100,
+    "pre": "~",
+    "cap": "collaborateurs à Chevigny-Saint-Sauveur",
+    "src": "La Gazette France, 2025"
+   },
+   "rows": [
+    [
+     "Depuis",
+     "1965 · ONDEX SAS depuis 2025"
+    ]
+   ],
+   "points": [
+    {
+     "anchor": "adv",
+     "usecase": "siege-reclamations-360"
+    },
+    {
+     "anchor": "direction",
+     "usecase": "siege-marge-pilotage"
+    },
+    {
+     "anchor": "meeting",
+     "usecase": "siege-comite-lundi"
+    }
+   ],
+   "shot": {
+    "cuts": "used"
+   }
+  }
+ ],
+ "final": {
+  "eyebrow": "Carte interactive · 8 fronts",
+  "title": "Là où ONDEX devient agentique",
+  "text": "Touchez un front pour y revenir : chaque « + » ouvre ce qu’il résout, les indicateurs qu’il fait bouger et la façon dont les briques Salesforce se connectent.",
+  "cta": "Retour au début",
+  "arcs": "hub"
+ },
+ "ui": {
+  "start": "DÉPART",
+  "summary": "VUE D’ENSEMBLE",
+  "stage": "Front",
+  "overview": "Vue complète",
+  "all": "Tout",
+  "cta": "Parcourir l’opération",
+  "back": "Retour au début",
+  "wheel": "ou utilisez la molette",
+  "glance": "En bref",
+  "ucs": "Cas d’usage",
+  "tabs": [
+   "Adaptation",
+   "Architecture",
+   "Ressources"
+  ],
+  "where": "Chez",
+  "challenge": "Le défi aujourd’hui",
+  "how": "La solution",
+  "impact": "Indicateurs visés",
+  "who": "Qui l’utilise",
+  "steps": "Étape par étape",
+  "allConnected": "Tout est connecté",
+  "allText": "Un seul flux, de bout en bout.",
+  "videos": "À voir",
+  "more": "Autres ressources",
+  "stories": "Témoignages clients",
+  "readStory": "Lire le témoignage",
+  "lySys": "Systèmes {client}",
+  "lyGuard": "Salesforce Guardian · droits d’accès et Zero Data Retention",
+  "archCap": "Les mêmes couches que le QG numérique : des systèmes {client} jusqu’à la réponse, sur Salesforce Guardian.",
+  "watch": "Voir sur",
+  "open": "Ouvrir",
+  "close": "Fermer",
+  "prev": "Cas d’usage précédent",
+  "next": "Cas d’usage suivant",
+  "estimate": "estimation",
+  "source": "Source",
+  "goTo": "Aller à",
+  "explore": "Explorer le cas d’usage",
+  "meta": "{n} fronts · {m} cas d’usage",
+  "world": "Visite animée de l’opération",
+  "theme": "Changer de thème",
+  "auto": "Visite automatique (touche P)",
+  "logotip": "Pour voir le logo sur les camions et les enseignes : déposez le fichier officiel (PNG ou SVG) sur la page, ou appuyez sur L.",
+  "noRes": "Les ressources de ce cas d’usage arrivent bientôt.",
+  "milestone": "Premier jalon réaliste",
+  "proof": "Preuves dans l’industrie",
+  "story": "Voir la feuille de route",
+  "storyBack": "Retour à la visite 3D",
+  "open3d": "Voir en 3D",
+  "inCases": "dans {n} cas d’usage",
+  "inCase": "dans 1 cas d’usage",
+  "flip": "Résumé",
+  "watchOn": "Voir sur",
+  "uDown": "QG numérique",
+  "uUp": "Retour à l’opération",
+  "uLayer": "couche agentique",
+  "uAgents": "Agents",
+  "uAgent": "Agent",
+  "uBase": "Basé sur",
+  "uNone": "Pas encore d’agent pour ce front.",
+  "presenter": "Votre contact Salesforce",
+  "credit": "Template élaboré par",
+  "estimateAll": "Estimations d’ordre de grandeur pour dimensionner la conversation : les objectifs se fixent sur la base réelle d’ONDEX.",
+  "slab": {
+   "statement": "Vision",
+   "numbers": "En chiffres",
+   "floaters": "Aujourd’hui",
+   "phases": "Séquence",
+   "groups": "Point de départ",
+   "catalog": "Catalogue",
+   "reel": "Vidéos",
+   "panel": "Détail",
+   "closing": "Prochaines étapes"
+  }
+ },
+ "usecases": {
+  "usine-reclamation-lot": {
+   "title": "Relier chaque réclamation au lot de production",
+   "short": "Réclamation → lot",
+   "summary": "Chaque défaut signalé remonte au lot, à la ligne et à la formulation.",
+   "where": "Usine de Chevigny · laboratoire qualité, lignes d’extrusion et SAV",
+   "pain": "Dans l’extrusion, un défaut d’aspect ou de géométrie se répète tant que sa cause n’est pas trouvée. Quand le SAV et la production ne partagent pas les mêmes données, l’analyse prend des semaines.",
+   "approach": [
+    {
+     "title": "Saisir la réclamation",
+     "text": "Le SAV ouvre un dossier structuré : photos, référence, quantité, chantier.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Retrouver le lot",
+     "text": "MuleSoft relie le dossier au lot, à la ligne et à la formulation dans l’ERP et le MES.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "Repérer les causes",
+     "text": "Data 360 rapproche réclamations, lots et contrôles qualité pour faire ressortir les récurrences.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Alerter la qualité",
+     "text": "L’alerte arrive dans Slack avec le résumé du dossier et le lot concerné.",
+     "product": "Slack"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−30 %",
+     "label": "de délai d’analyse des réclamations",
+     "note": "Ordre de grandeur à confirmer sur l’historique ONDEX.",
+     "estimate": true
+    },
+    {
+     "value": "90",
+     "label": "flux d’intégration MuleSoft déployés en six mois",
+     "note": "chez Saint-Gobain",
+     "source": {
+      "title": "MuleSoft · Saint-Gobain",
+      "url": "https://www.mulesoft.com/case-studies/saint-gobain-manufacturing"
+     }
+    }
+   ],
+   "personas": [
+    "Responsable qualité (QHSE)",
+    "Chef de production",
+    "Assistante SAV"
+   ],
+   "products": [
+    "Service Cloud",
+    "MuleSoft",
+    "Data 360",
+    "Agentforce",
+    "Slack"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-mes",
+        "label": "MES",
+        "kind": "ext"
+       },
+       {
+        "id": "x-laboratoire-qualite",
+        "label": "Laboratoire qualité",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       },
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "service-cloud",
+        "label": "Service Cloud",
+        "product": "Service Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       },
+       {
+        "id": "slack",
+        "label": "Slack",
+        "product": "Slack"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Saint-Gobain",
+     "customer": "Saint-Gobain",
+     "industry": "Matériaux de construction · France",
+     "url": "https://www.mulesoft.com/case-studies/saint-gobain-manufacturing",
+     "source": "MuleSoft",
+     "stat": {
+      "v": "90",
+      "l": "flux MuleSoft déployés en six mois"
+     },
+     "summary": "Saint-Gobain relie CRM, e-commerce, SAP S/4HANA et ateliers avec MuleSoft : 57 % de réutilisation des API et des devis convertis en commandes en quelques secondes.",
+     "verified": true,
+     "products": [
+      "MuleSoft"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Agentforce Manufacturing Basics",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/manufacturing-cloud-basics",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "usine-campagnes-visibles": {
+   "title": "Les campagnes de production visibles par le commerce",
+   "short": "Planning partagé",
+   "summary": "Le commercial voit la prochaine campagne et promet une date juste.",
+   "where": "Usine de Chevigny · pilotage des lignes, planification et commerce",
+   "pain": "Le planning des lignes vit hors du CRM : le commerce appelle l’ADV, qui appelle la planification. La date promise au client est prudente plutôt que compétitive.",
+   "approach": [
+    {
+     "title": "Exposer le planning",
+     "text": "MuleSoft publie le planning des lignes et les stocks de l’ERP, sans ressaisie.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "L’afficher sur l’affaire",
+     "text": "Sur chaque opportunité : la prochaine campagne compatible et la quantité disponible.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Répondre en langage naturel",
+     "text": "« Quand puis-je livrer 320 m² de plaques translucides ? » : l’agent répond avec la date et ses hypothèses.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−50 %",
+     "label": "d’appels internes entre commerce, ADV et planification",
+     "estimate": true
+    },
+    {
+     "value": "+10 pts",
+     "label": "de promesses de livraison tenues",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Planificateur de production",
+    "Technico-commercial",
+    "Assistante ADV"
+   ],
+   "products": [
+    "MuleSoft",
+    "Sales Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-mes",
+        "label": "MES",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "video",
+     "title": "The Manufacturing Cloud ROI-Focused Roadmap",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e11",
+     "duration": "32:24",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Feuille de route",
+     "summary_title": "La feuille de route Manufacturing",
+     "summary": [
+      "Les prochaines étapes de Manufacturing Cloud.",
+      "Une feuille de route centrée sur le retour sur investissement."
+     ],
+     "poster": "Feuille de route",
+     "who": "Manufacturing Cloud",
+     "color": "#2E844A"
+    },
+    {
+     "type": "trailhead",
+     "title": "Agentforce Manufacturing: Quick Look",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-manufacturing-quick-look",
+     "duration": "15 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "usine-voix-client-rd": {
+   "title": "Nourrir la R&D avec la voix des clients",
+   "short": "Voix client → R&D",
+   "summary": "Demandes de profils, coloris et performances, agrégées par marché pour la R&D.",
+   "where": "Usine de Chevigny · R&D, formulation et lignes",
+   "pain": "Les idées de nouveaux produits se perdent dans les comptes rendus de visite et les e-mails. La R&D manque d’une vue chiffrée de la demande, marché par marché.",
+   "approach": [
+    {
+     "title": "Capter les demandes",
+     "text": "Profils, coloris, transmission lumineuse : chaque demande spéciale est saisie sur le compte.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Agréger les signaux",
+     "text": "Data 360 rassemble demandes, réclamations et ventes par marché et par application.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Résumer les tendances",
+     "text": "Chaque mois, un agent synthétise ce que demandent serristes, éleveurs et négoces.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Arbitrer la feuille de route",
+     "text": "Tableau met en regard la demande, les volumes et les marges par gamme.",
+     "product": "Tableau"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "+111 %",
+     "label": "d’usage de Tableau en un an",
+     "note": "chez Poclain Hydraulics",
+     "source": {
+      "title": "Salesforce · Poclain Hydraulics",
+      "url": "https://www.salesforce.com/fr/customer-stories/poclain/"
+     }
+    },
+    {
+     "value": "−1 mois",
+     "label": "sur le cycle d’étude d’un nouveau produit",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Responsable R&D",
+    "Chef de produit",
+    "Direction commerciale"
+   ],
+   "products": [
+    "Sales Cloud",
+    "Data 360",
+    "Agentforce",
+    "Tableau"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-plm-et-formulation",
+        "label": "PLM et formulation",
+        "kind": "ext"
+       },
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       },
+       {
+        "id": "tableau",
+        "label": "Tableau",
+        "product": "Tableau"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Poclain Hydraulics",
+     "customer": "Poclain Hydraulics",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+18 %",
+      "l": "d’offres saisies dans le CRM en un an"
+     },
+     "summary": "ETI industrielle familiale, Poclain centralise leads, devis et contrats dans Salesforce : plus de 90 % de connexion au CRM et +18 % d’offres saisies.",
+     "verified": true,
+     "products": [
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Tableau",
+      "MuleSoft"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Differentiated Experiences with Agentforce Manufacturing",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/manufacturing_automotive_and_energy_at_dreamforce_2025/episode/episode-s1e4",
+     "duration": "44:50",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2025 · Agentforce Manufacturing",
+     "summary_title": "Des expériences différenciantes",
+     "summary": [
+      "Agentforce Manufacturing pour les clients et les partenaires.",
+      "Ventes, service et réseau de distribution."
+     ],
+     "poster": "Expérience",
+     "who": "Manufacturing",
+     "color": "#032D60"
+    },
+    {
+     "type": "trailhead",
+     "title": "Data 360 Setup",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-for-admins",
+     "duration": "40 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "entrepot-commande-directe": {
+   "title": "De la commande signée à l’ERP, sans ressaisie",
+   "short": "Zéro ressaisie",
+   "summary": "Le devis accepté devient commande ERP et ordre de préparation.",
+   "where": "Stock et expéditions · ADV, préparation et chargement",
+   "pain": "Ressaisir chaque commande dans l’ERP prend du temps et crée des erreurs de référence ou de quantité. En pleine saison, l’ADV devient le goulot d’étranglement.",
+   "approach": [
+    {
+     "title": "Convertir le devis",
+     "text": "Le devis accepté devient commande, avec ses conditions et son adresse de livraison.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Transmettre à l’ERP",
+     "text": "MuleSoft crée la commande et l’ordre de préparation dans l’ERP.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "Confirmer au client",
+     "text": "Un agent envoie l’accusé de réception et la date d’expédition prévue.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−60 %",
+     "label": "de temps de saisie par commande",
+     "estimate": true
+    },
+    {
+     "value": "Fin",
+     "label": "de la double saisie vers l’ERP",
+     "note": "chez Air Liquide et Poclain",
+     "source": {
+      "title": "Salesforce · Air Liquide et Poclain",
+      "url": "https://www.salesforce.com/fr/blog/air-liquide-poclain/"
+     }
+    }
+   ],
+   "personas": [
+    "Assistante ADV",
+    "Responsable logistique",
+    "Préparateur de commandes"
+   ],
+   "products": [
+    "Revenue Cloud",
+    "MuleSoft",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-gestion-d-entrepot",
+        "label": "Gestion d’entrepôt",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Air Liquide et Poclain",
+     "customer": "Air Liquide et Poclain",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/blog/air-liquide-poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "150 000",
+      "l": "références devisées dans Revenue Cloud (Poclain)"
+     },
+     "summary": "Des devis encadrés par des prix minimum et cible, la fin d’Excel et de la double saisie : les données partent automatiquement vers l’ERP.",
+     "verified": true,
+     "products": [
+      "Revenue Cloud"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Efficient Sales with Agentforce Revenue Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/efficient-sales-with-revenue-cloud",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "entrepot-suivi-livraison": {
+   "title": "Livraisons suivies, réserves traitées en un écran",
+   "short": "Livraison suivie",
+   "summary": "Statut, réserves transporteur et réexpédition visibles par le client et l’ADV.",
+   "where": "Stock et expéditions · quais, transporteurs et clients livrés",
+   "pain": "Des plaques abîmées au transport déclenchent appels et recherches dans plusieurs outils. Pendant ce temps, le client attend, et son chantier aussi.",
+   "approach": [
+    {
+     "title": "Synchroniser les expéditions",
+     "text": "MuleSoft remonte les statuts du transporteur et les bons de livraison.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "Déclarer une réserve",
+     "text": "Le client signale une casse avec photos depuis son espace en ligne.",
+     "product": "Experience Cloud"
+    },
+    {
+     "title": "Traiter vite",
+     "text": "Le dossier déclenche réexpédition ou avoir, avec le lot et le transporteur concernés.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Prévenir avant l’appel",
+     "text": "Un agent informe le client d’un retard et propose un nouveau créneau.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "80 %",
+     "label": "des problèmes résolus en libre-service",
+     "note": "chez Fisher & Paykel",
+     "source": {
+      "title": "Salesforce · Fisher & Paykel",
+      "url": "https://www.salesforce.com/customer-stories/fisher-and-paykel/agentic-self-service/"
+     }
+    },
+    {
+     "value": "−40 %",
+     "label": "d’appels « où en est ma commande ? »",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Assistante ADV",
+    "Responsable transport",
+    "Acheteur négoce"
+   ],
+   "products": [
+    "MuleSoft",
+    "Experience Cloud",
+    "Service Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-transporteurs",
+        "label": "Transporteurs",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "experience-cloud",
+        "label": "Experience Cloud",
+        "product": "Experience Cloud"
+       },
+       {
+        "id": "service-cloud",
+        "label": "Service Cloud",
+        "product": "Service Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Fisher & Paykel",
+     "customer": "Fisher & Paykel",
+     "industry": "Électroménager · Nouvelle-Zélande",
+     "url": "https://www.salesforce.com/customer-stories/fisher-and-paykel/agentic-self-service/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "80 %",
+      "l": "des problèmes résolus en libre-service"
+     },
+     "summary": "Avec Agentforce et Data 360, les clients résolvent seuls environ 80 % de leurs problèmes ; l’assistant des conseillers recueille 75 % d’avis positifs.",
+     "verified": true,
+     "products": [
+      "Agentforce",
+      "Service Cloud",
+      "Data 360"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "entrepot-franco-zone": {
+   "title": "Le franco de port calculé selon la zone et le volume",
+   "short": "Franco par zone",
+   "summary": "Les règles de livraison s’appliquent d’elles-mêmes dans le devis.",
+   "where": "Stock et expéditions · conditions de transport par zone",
+   "pain": "Les conditions de livraison varient selon la distance, le volume et le client, et s’appliquent souvent à la main. Chaque écart rogne la marge sans que personne ne le voie.",
+   "approach": [
+    {
+     "title": "Modéliser les règles",
+     "text": "Revenue Cloud porte les règles de franco par zone, volume et type de client.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Situer le chantier",
+     "text": "L’adresse de livraison place le chantier ou le dépôt dans la bonne zone.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Valider les exceptions",
+     "text": "Une demande d’approbation part dès qu’un commercial s’écarte de la règle.",
+     "product": "Salesforce Platform"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "0",
+     "label": "franco accordé hors règle sans validation",
+     "estimate": true
+    },
+    {
+     "value": "150 000",
+     "label": "références devisées dans Revenue Cloud",
+     "note": "chez Poclain",
+     "source": {
+      "title": "Salesforce · Air Liquide et Poclain",
+      "url": "https://www.salesforce.com/fr/blog/air-liquide-poclain/"
+     }
+    }
+   ],
+   "personas": [
+    "Directeur commercial",
+    "Assistante ADV",
+    "Responsable transport"
+   ],
+   "products": [
+    "Revenue Cloud",
+    "Sales Cloud",
+    "Salesforce Platform"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-grilles-transporteurs",
+        "label": "Grilles transporteurs",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       },
+       {
+        "id": "salesforce-platform",
+        "label": "Salesforce Platform",
+        "product": "Salesforce Platform"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Air Liquide et Poclain",
+     "customer": "Air Liquide et Poclain",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/blog/air-liquide-poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "150 000",
+      "l": "références devisées dans Revenue Cloud (Poclain)"
+     },
+     "summary": "Des devis encadrés par des prix minimum et cible, la fin d’Excel et de la double saisie : les données partent automatiquement vers l’ERP.",
+     "verified": true,
+     "products": [
+      "Revenue Cloud"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Revenue Keynote: Beyond CPQ, One Engine, Every Experience",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/sales_at_dreamforce_2026/episode/episode-s1e5",
+     "duration": "47:01",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Revenue",
+     "summary_title": "Au-delà du CPQ",
+     "summary": [
+      "Un seul moteur pour les devis, les contrats et la facturation.",
+      "Pour chaque canal de vente."
+     ],
+     "poster": "Devis",
+     "who": "Ventes et devis",
+     "color": "#5A1BA9"
+    },
+    {
+     "type": "trailhead",
+     "title": "Efficient Sales with Agentforce Revenue Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/efficient-sales-with-revenue-cloud",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "export-pilotage-pays": {
+   "title": "Piloter les distributeurs pays par pays",
+   "short": "Pilotage export",
+   "summary": "Potentiel, réalisé et activité par pays et par distributeur.",
+   "where": "Export · distributeurs et clients en Europe",
+   "pain": "À l’export, quelques commerciaux couvrent de vastes zones à travers des distributeurs. Sans données partagées, le potentiel de chaque pays reste difficile à voir.",
+   "approach": [
+    {
+     "title": "Unifier comptes et ventes",
+     "text": "Data 360 réunit comptes, commandes de l’ERP et activité commerciale par pays.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Prioriser",
+     "text": "Un agent signale les distributeurs en retrait et les comptes à potentiel.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Planifier les visites",
+     "text": "Plans de compte et visites se préparent dans Sales Cloud.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Visualiser",
+     "text": "Tableau montre réalisé, potentiel et couverture, pays par pays.",
+     "product": "Tableau"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "1 800",
+     "label": "utilisateurs sur un CRM unique en 16 mois",
+     "note": "chez Etex, matériaux de construction",
+     "source": {
+      "title": "Salesforce · Etex",
+      "url": "https://www.salesforce.com/eu/blog/how-etex-uses-crm/"
+     }
+    },
+    {
+     "value": "+10 %",
+     "label": "de chiffre d’affaires export",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Responsable export",
+    "Area manager",
+    "Distributeur"
+   ],
+   "products": [
+    "Data 360",
+    "Agentforce",
+    "Sales Cloud",
+    "Tableau"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-fichiers-distributeurs",
+        "label": "Fichiers distributeurs",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       },
+       {
+        "id": "tableau",
+        "label": "Tableau",
+        "product": "Tableau"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Etex",
+     "customer": "Etex",
+     "industry": "Matériaux de construction · Belgique",
+     "url": "https://www.salesforce.com/eu/blog/how-etex-uses-crm/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "1 800",
+      "l": "utilisateurs en production en 16 mois"
+     },
+     "summary": "Le groupe de matériaux de construction réunit ses divisions sur un CRM unique : 1 800 utilisateurs en production en 16 mois.",
+     "verified": true
+    },
+    {
+     "type": "story",
+     "title": "Imerys",
+     "customer": "Imerys",
+     "industry": "Minéraux industriels · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/Imerys/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+80 M€",
+      "l": "de ventes croisées en un an"
+     },
+     "summary": "Imerys passe d’une organisation produit à une organisation marché avec Manufacturing Cloud et CPQ : +80 M€ de ventes croisées en un an et des devis 32 fois plus productifs.",
+     "verified": true,
+     "products": [
+      "Manufacturing Cloud",
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Marketing Cloud"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Explore Agentforce Manufacturing for Sales",
+     "url": "https://trailhead.salesforce.com/content/learn/trails/explore-manufacturing-cloud-for-sales",
+     "duration": "2 h 30",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "export-sedentaire-ia": {
+   "title": "Chaque demande export qualifiée, dans sa langue",
+   "short": "Demandes export",
+   "summary": "Formulaires et e-mails multilingues triés et traités sans attendre.",
+   "where": "Export · demandes entrantes en plusieurs langues",
+   "pain": "Les demandes hors réseau arrivent par e-mail, dans plusieurs langues et sans qualification. Elles attendent parfois des jours avant d’atteindre la bonne personne.",
+   "approach": [
+    {
+     "title": "Recevoir",
+     "text": "Formulaires du site et e-mails arrivent dans une file unique.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Qualifier",
+     "text": "Un agent détecte la langue, le besoin, le pays et le distributeur compétent.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Créer l’affaire",
+     "text": "Les demandes sérieuses deviennent des opportunités, routées au bon commercial.",
+     "product": "Sales Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "2 500",
+     "label": "leads par mois qualifiés par Agentforce",
+     "note": "chez Siemens",
+     "source": {
+      "title": "Salesforce · Siemens",
+      "url": "https://www.salesforce.com/customer-stories/siemens/"
+     }
+    },
+    {
+     "value": "< 1 h",
+     "label": "pour une première réponse",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Assistante commerciale export",
+    "Responsable export"
+   ],
+   "products": [
+    "Service Cloud",
+    "Agentforce",
+    "Sales Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-messagerie",
+        "label": "Messagerie",
+        "kind": "ext"
+       },
+       {
+        "id": "x-site-web",
+        "label": "Site web",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "service-cloud",
+        "label": "Service Cloud",
+        "product": "Service Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Siemens",
+     "customer": "Siemens",
+     "industry": "Industrie · Allemagne",
+     "url": "https://www.salesforce.com/customer-stories/siemens/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "2 500",
+      "l": "leads par mois qualifiés par Agentforce"
+     },
+     "summary": "Sur SiePortal (1,4 million d’utilisateurs enregistrés), Agentforce qualifie environ 2 500 leads par mois et ramène la réponse de quelques jours à quelques minutes.",
+     "verified": true,
+     "products": [
+      "Commerce Cloud",
+      "Data 360",
+      "Agentforce"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "export-veille-marche": {
+   "title": "Une veille marché et concurrence, pays par pays",
+   "short": "Veille pays",
+   "summary": "Une synthèse ciblée pour chaque commercial, au début de sa journée.",
+   "where": "Export · marchés, réglementation et concurrence",
+   "pain": "Les signaux de marché (chantiers, concurrents, réglementation) arrivent dispersés et en plusieurs langues. On les découvre souvent trop tard pour agir.",
+   "approach": [
+    {
+     "title": "Collecter",
+     "text": "Sources publiques et notes de visite rassemblées par pays.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Synthétiser",
+     "text": "Un agent résume ce qui a changé et ce qui concerne chaque compte.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Partager",
+     "text": "La synthèse arrive dans le canal Slack de chaque pays.",
+     "product": "Slack"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−2 h",
+     "label": "de veille par semaine et par commercial",
+     "estimate": true
+    },
+    {
+     "value": "100 %",
+     "label": "des comptes clés couverts chaque semaine",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Direction commerciale",
+    "Marketing",
+    "Responsable export"
+   ],
+   "products": [
+    "Data 360",
+    "Agentforce",
+    "Slack"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-sources-web",
+        "label": "Sources web",
+        "kind": "ext"
+       },
+       {
+        "id": "x-notes-de-visite",
+        "label": "Notes de visite",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       },
+       {
+        "id": "slack",
+        "label": "Slack",
+        "product": "Slack"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "video",
+     "title": "Turning AI Pilot Sprawl into Measurable Agentic Value",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e12",
+     "duration": "19:51",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Valeur mesurable",
+     "summary_title": "Du pilote à la valeur",
+     "summary": [
+      "Passer de pilotes dispersés à une valeur mesurable.",
+      "Le retour d’un industriel avec plusieurs agents en production."
+     ],
+     "poster": "Valeur",
+     "who": "Industriels",
+     "color": "#06A59A"
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "negoce-devis-express": {
+   "title": "Un devis en 24 h, avec le stock et la date de production",
+   "short": "Devis express",
+   "summary": "Configurateur référence → déclinaisons, avec tarif contrat, stock et planning.",
+   "where": "Négoces et GSB · demandes de prix des négoces, artisans et intégrateurs",
+   "pain": "Le prix d’une plaque dépend du profil, de la longueur, du coloris, du contrat et du stock, souvent dispersés entre ERP et tableurs. Le délai de réponse s’allonge et l’affaire refroidit.",
+   "approach": [
+    {
+     "title": "Configurer",
+     "text": "Profil, coloris, longueur et accessoires de fixation, avec le tarif du contrat.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Lire stock et planning",
+     "text": "MuleSoft interroge l’ERP : stock disponible ou prochaine campagne de production.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "Rédiger la proposition",
+     "text": "Un agent prépare le devis et le message d’accompagnement.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Encadrer la marge",
+     "text": "Une remise hors grille part en approbation avant l’envoi.",
+     "product": "Sales Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "×32",
+     "label": "de productivité dans la création de devis",
+     "note": "chez Imerys",
+     "source": {
+      "title": "Salesforce · Imerys",
+      "url": "https://www.salesforce.com/fr/customer-stories/Imerys/"
+     }
+    },
+    {
+     "value": "+18 %",
+     "label": "d’offres saisies dans le CRM en un an",
+     "note": "chez Poclain Hydraulics",
+     "source": {
+      "title": "Salesforce · Poclain Hydraulics",
+      "url": "https://www.salesforce.com/fr/customer-stories/poclain/"
+     }
+    },
+    {
+     "value": "−75 %",
+     "label": "de temps de devis",
+     "note": "Salesforce, usage interne d’Agentforce for Revenue",
+     "source": {
+      "title": "Salesforce News · Agentforce for Revenue",
+      "url": "https://www.salesforce.com/news/stories/agentforce-for-revenue-announcement/"
+     }
+    }
+   ],
+   "personas": [
+    "Technico-commercial",
+    "Assistante ADV",
+    "Acheteur négoce"
+   ],
+   "products": [
+    "Revenue Cloud",
+    "MuleSoft",
+    "Agentforce",
+    "Sales Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-tarifs",
+        "label": "Tarifs",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Imerys",
+     "customer": "Imerys",
+     "industry": "Minéraux industriels · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/Imerys/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+80 M€",
+      "l": "de ventes croisées en un an"
+     },
+     "summary": "Imerys passe d’une organisation produit à une organisation marché avec Manufacturing Cloud et CPQ : +80 M€ de ventes croisées en un an et des devis 32 fois plus productifs.",
+     "verified": true,
+     "products": [
+      "Manufacturing Cloud",
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Marketing Cloud"
+     ]
+    },
+    {
+     "type": "story",
+     "title": "Poclain Hydraulics",
+     "customer": "Poclain Hydraulics",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+18 %",
+      "l": "d’offres saisies dans le CRM en un an"
+     },
+     "summary": "ETI industrielle familiale, Poclain centralise leads, devis et contrats dans Salesforce : plus de 90 % de connexion au CRM et +18 % d’offres saisies.",
+     "verified": true,
+     "products": [
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Tableau",
+      "MuleSoft"
+     ]
+    },
+    {
+     "type": "doc",
+     "title": "Agentforce for Revenue : des devis en langage naturel dans Revenue Cloud",
+     "url": "https://www.salesforce.com/news/stories/agentforce-for-revenue-announcement/",
+     "source": "Salesforce News",
+     "verified": true
+    },
+    {
+     "type": "video",
+     "title": "Revenue Keynote: Beyond CPQ, One Engine, Every Experience",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/sales_at_dreamforce_2026/episode/episode-s1e5",
+     "duration": "47:01",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Revenue",
+     "summary_title": "Au-delà du CPQ",
+     "summary": [
+      "Un seul moteur pour les devis, les contrats et la facturation.",
+      "Pour chaque canal de vente."
+     ],
+     "poster": "Devis",
+     "who": "Ventes et devis",
+     "color": "#5A1BA9"
+    },
+    {
+     "type": "trailhead",
+     "title": "Efficient Sales with Agentforce Revenue Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/efficient-sales-with-revenue-cloud",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "negoce-portail-b2b": {
+   "title": "Un espace en ligne pour commander et suivre",
+   "short": "Portail négoces",
+   "summary": "Réassort, documents techniques, suivi et factures en libre-service.",
+   "where": "Négoces et GSB · réassort des dépôts et des magasins",
+   "pain": "Quand l’espace client est peu pratique, les distributeurs reviennent au téléphone et à l’e-mail. Chaque commande passe alors par l’ADV, même la plus simple.",
+   "approach": [
+    {
+     "title": "Ouvrir le catalogue",
+     "text": "Références, prix contractuels et disponibilités dans une boutique B2B.",
+     "product": "Commerce Cloud"
+    },
+    {
+     "title": "Documenter",
+     "text": "Fiches techniques, notices de pose et avis techniques au même endroit.",
+     "product": "Experience Cloud"
+    },
+    {
+     "title": "Assister la commande",
+     "text": "Un agent aide à composer la commande et répond sur les délais.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "90 %",
+     "label": "des commandes passées via Salesforce",
+     "note": "chez JK Cement",
+     "source": {
+      "title": "Salesforce · JK Cement",
+      "url": "https://www.salesforce.com/in/customer-stories/jk-cement/"
+     }
+    },
+    {
+     "value": "1,4 M",
+     "label": "d’utilisateurs enregistrés sur le portail",
+     "note": "chez Siemens (SiePortal)",
+     "source": {
+      "title": "Salesforce · Siemens",
+      "url": "https://www.salesforce.com/customer-stories/siemens/"
+     }
+    }
+   ],
+   "personas": [
+    "Acheteur négoce",
+    "Chef de rayon",
+    "Assistante ADV"
+   ],
+   "products": [
+    "Commerce Cloud",
+    "Experience Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-documents-techniques",
+        "label": "Documents techniques",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "commerce-cloud",
+        "label": "Commerce Cloud",
+        "product": "Commerce Cloud"
+       },
+       {
+        "id": "experience-cloud",
+        "label": "Experience Cloud",
+        "product": "Experience Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "JK Cement",
+     "customer": "JK Cement",
+     "industry": "Ciment et matériaux · Inde",
+     "url": "https://www.salesforce.com/in/customer-stories/jk-cement/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "90 %",
+      "l": "des commandes passées via Salesforce"
+     },
+     "summary": "Une plateforme unique pour commerciaux, distributeurs et prescripteurs : 90 % des commandes et plus de 10 000 partenaires passent par Salesforce.",
+     "verified": true,
+     "products": [
+      "Consumer Goods Cloud",
+      "Experience Cloud",
+      "Marketing Cloud",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "story",
+     "title": "Siemens",
+     "customer": "Siemens",
+     "industry": "Industrie · Allemagne",
+     "url": "https://www.salesforce.com/customer-stories/siemens/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "2 500",
+      "l": "leads par mois qualifiés par Agentforce"
+     },
+     "summary": "Sur SiePortal (1,4 million d’utilisateurs enregistrés), Agentforce qualifie environ 2 500 leads par mois et ramène la réponse de quelques jours à quelques minutes.",
+     "verified": true,
+     "products": [
+      "Commerce Cloud",
+      "Data 360",
+      "Agentforce"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Differentiated Experiences with Agentforce Manufacturing",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/manufacturing_automotive_and_energy_at_dreamforce_2025/episode/episode-s1e4",
+     "duration": "44:50",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2025 · Agentforce Manufacturing",
+     "summary_title": "Des expériences différenciantes",
+     "summary": [
+      "Agentforce Manufacturing pour les clients et les partenaires.",
+      "Ventes, service et réseau de distribution."
+     ],
+     "poster": "Expérience",
+     "who": "Manufacturing",
+     "color": "#032D60"
+    }
+   ]
+  },
+  "negoce-accords-cadres": {
+   "title": "Accords-cadres et remises de fin d’année pilotés",
+   "short": "Accords et RFA",
+   "summary": "Engagements de volume suivis au fil de l’eau, enseigne par enseigne.",
+   "where": "Négoces et GSB · accords nationaux avec les enseignes et les négoces",
+   "pain": "Les remises par palier se calculent souvent en fin d’année, trop tard pour agir. En cours d’année, personne ne voit qui atteindra son palier.",
+   "approach": [
+    {
+     "title": "Contractualiser",
+     "text": "Volumes, paliers et prix de chaque accord dans des accords de vente.",
+     "product": "Manufacturing Cloud"
+    },
+    {
+     "title": "Mesurer le réalisé",
+     "text": "MuleSoft remonte les ventes de l’ERP face à chaque engagement.",
+     "product": "MuleSoft"
+    },
+    {
+     "title": "Alerter",
+     "text": "Un agent signale les écarts au palier et propose l’action commerciale.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "+80 M€",
+     "label": "de ventes croisées en un an",
+     "note": "chez Imerys, avec Manufacturing Cloud",
+     "source": {
+      "title": "Salesforce · Imerys",
+      "url": "https://www.salesforce.com/fr/customer-stories/Imerys/"
+     }
+    },
+    {
+     "value": "−50 %",
+     "label": "de temps de calcul des remises de fin d’année",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Responsable grands comptes",
+    "Contrôleur de gestion",
+    "Chef de marché GSB"
+   ],
+   "products": [
+    "Manufacturing Cloud",
+    "MuleSoft",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-edi-enseignes",
+        "label": "EDI enseignes",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "mulesoft",
+        "label": "MuleSoft",
+        "product": "MuleSoft"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "manufacturing-cloud",
+        "label": "Manufacturing Cloud",
+        "product": "Manufacturing Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Imerys",
+     "customer": "Imerys",
+     "industry": "Minéraux industriels · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/Imerys/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+80 M€",
+      "l": "de ventes croisées en un an"
+     },
+     "summary": "Imerys passe d’une organisation produit à une organisation marché avec Manufacturing Cloud et CPQ : +80 M€ de ventes croisées en un an et des devis 32 fois plus productifs.",
+     "verified": true,
+     "products": [
+      "Manufacturing Cloud",
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Marketing Cloud"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Manufacturing Keynote: Building an Agentic Future Together",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e2",
+     "duration": "45:05",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Keynote industrie",
+     "summary_title": "L’industrie agentique",
+     "summary": [
+      "La keynote industrie de Dreamforce 2026.",
+      "Des agents au service des industriels, de la vente aux opérations."
+     ],
+     "poster": "Industrie",
+     "who": "Industriels",
+     "color": "#0B5CAB"
+    },
+    {
+     "type": "trailhead",
+     "title": "Explore Agentforce Manufacturing for Sales",
+     "url": "https://trailhead.salesforce.com/content/learn/trails/explore-manufacturing-cloud-for-sales",
+     "duration": "2 h 30",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "chantier-visite-mobile": {
+   "title": "Compte rendu de visite dicté, résumé, suivi",
+   "short": "Visite mobile",
+   "summary": "Le commercial dicte sur le chantier ; l’IA résume et propose les suites.",
+   "where": "Chantiers et poseurs · visites des technico-commerciaux",
+   "pain": "Sur le chantier, on note sur un carnet et l’on saisit plus tard, ou jamais. Sans mémoire partagée, le pilotage commercial avance à l’aveugle.",
+   "approach": [
+    {
+     "title": "Préparer la visite",
+     "text": "Un agent prépare le brief : historique, devis ouverts, réclamations.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Saisir sur place",
+     "text": "Le compte rendu se dicte sur le mobile, même sans réseau.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Enchaîner les suites",
+     "text": "Le résumé crée les tâches, le devis à préparer et les relances.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "> 90 %",
+     "label": "de connexion des utilisateurs au CRM",
+     "note": "chez Poclain Hydraulics",
+     "source": {
+      "title": "Salesforce · Poclain Hydraulics",
+      "url": "https://www.salesforce.com/fr/customer-stories/poclain/"
+     }
+    },
+    {
+     "value": "−20 min",
+     "label": "de préparation par visite",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Technico-commercial",
+    "Directeur commercial"
+   ],
+   "products": [
+    "Agentforce",
+    "Sales Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-agenda-et-messagerie",
+        "label": "Agenda et messagerie",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Poclain Hydraulics",
+     "customer": "Poclain Hydraulics",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/customer-stories/poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "+18 %",
+      "l": "d’offres saisies dans le CRM en un an"
+     },
+     "summary": "ETI industrielle familiale, Poclain centralise leads, devis et contrats dans Salesforce : plus de 90 % de connexion au CRM et +18 % d’offres saisies.",
+     "verified": true,
+     "products": [
+      "Sales Cloud",
+      "Revenue Cloud",
+      "Tableau",
+      "MuleSoft"
+     ]
+    },
+    {
+     "type": "story",
+     "title": "Schneider Electric",
+     "customer": "Schneider Electric",
+     "industry": "Équipements électriques · France",
+     "url": "https://www.salesforce.com/eu/customer-stories/schneider-electric-boosts-customer-satisfaction/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "15 min",
+      "l": "du devis à la commande pour les distributeurs"
+     },
+     "summary": "Schneider Electric génère jusqu’à 500 opportunités par jour avec Sales Cloud et l’IA, et ramène le devis-commande distributeur à 15 minutes en Amérique du Nord.",
+     "verified": true,
+     "products": [
+      "Sales Cloud",
+      "Service Cloud",
+      "MuleSoft",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Explore Agentforce Manufacturing for Sales",
+     "url": "https://trailhead.salesforce.com/content/learn/trails/explore-manufacturing-cloud-for-sales",
+     "duration": "2 h 30",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "chantier-prescription": {
+   "title": "De la prescription au chantier gagné",
+   "short": "Prescription suivie",
+   "summary": "Un projet, plusieurs devis : on suit l’architecte jusqu’à la pose.",
+   "where": "Chantiers et poseurs · architectes, bureaux d’études et installateurs",
+   "pain": "Un même projet est souvent chiffré par plusieurs installateurs à partir d’une seule prescription. Sans vue par chantier, on perd la trace du devis gagnant.",
+   "approach": [
+    {
+     "title": "Créer le projet",
+     "text": "Le chantier, le prescripteur et les installateurs consultés sont reliés.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Relier les devis",
+     "text": "Chaque devis d’installateur est rattaché au même projet.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Repérer les projets",
+     "text": "Un agent signale les chantiers à suivre dans chaque secteur.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "500",
+     "label": "opportunités par jour, au lieu de trois semaines de travail",
+     "note": "chez Schneider Electric",
+     "source": {
+      "title": "Salesforce · Schneider Electric",
+      "url": "https://www.salesforce.com/eu/customer-stories/schneider-electric-boosts-customer-satisfaction/"
+     }
+    },
+    {
+     "value": "+20 %",
+     "label": "de prescriptions converties en commandes",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Prescripteur",
+    "Technico-commercial",
+    "Bureau d’études"
+   ],
+   "products": [
+    "Sales Cloud",
+    "Revenue Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-sources-chantiers",
+        "label": "Sources chantiers",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       },
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Schneider Electric",
+     "customer": "Schneider Electric",
+     "industry": "Équipements électriques · France",
+     "url": "https://www.salesforce.com/eu/customer-stories/schneider-electric-boosts-customer-satisfaction/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "15 min",
+      "l": "du devis à la commande pour les distributeurs"
+     },
+     "summary": "Schneider Electric génère jusqu’à 500 opportunités par jour avec Sales Cloud et l’IA, et ramène le devis-commande distributeur à 15 minutes en Amérique du Nord.",
+     "verified": true,
+     "products": [
+      "Sales Cloud",
+      "Service Cloud",
+      "MuleSoft",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Explore Agentforce Manufacturing for Sales",
+     "url": "https://trailhead.salesforce.com/content/learn/trails/explore-manufacturing-cloud-for-sales",
+     "duration": "2 h 30",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "chantier-assistance-pose": {
+   "title": "La bonne réponse de pose, au bon moment",
+   "short": "Aide à la pose",
+   "summary": "Entraxes, fixations, pentes : des réponses tirées des notices officielles.",
+   "where": "Chantiers et poseurs · couvreurs et charpentiers sur le toit",
+   "pain": "Une erreur de pose (entraxe, fixation, stockage au soleil) devient vite une réclamation. Les poseurs ont besoin d’une réponse sûre, sur place.",
+   "approach": [
+    {
+     "title": "Centraliser les notices",
+     "text": "Notices, avis techniques et règles de pose dans une base de connaissances.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Répondre sur le toit",
+     "text": "Un agent répond sur mobile et sur le site, en citant la notice.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Passer la main",
+     "text": "Les cas complexes arrivent à l’expert technique, avec photos et contexte.",
+     "product": "Service Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "50 %",
+     "label": "des demandes traitées en autonomie (objectif)",
+     "note": "chez Endress+Hauser",
+     "source": {
+      "title": "Salesforce · Endress+Hauser",
+      "url": "https://www.salesforce.com/customer-stories/endress-and-hauser/"
+     }
+    },
+    {
+     "value": "−25 %",
+     "label": "de réclamations liées à la pose",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Couvreur",
+    "Charpentier",
+    "Responsable technique"
+   ],
+   "products": [
+    "Service Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-notices-et-avis-techni",
+        "label": "Notices et avis techniques",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "service-cloud",
+        "label": "Service Cloud",
+        "product": "Service Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Endress+Hauser",
+     "customer": "Endress+Hauser",
+     "industry": "Instrumentation industrielle · Suisse",
+     "url": "https://www.salesforce.com/customer-stories/endress-and-hauser/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "50 %",
+      "l": "des demandes traitées en autonomie (objectif)"
+     },
+     "summary": "Agentforce sur le portail client, nourri par Data 360 : la moitié des demandes de service traitées en autonomie et +30 % de productivité attendus.",
+     "verified": true,
+     "products": [
+      "Agentforce",
+      "Data 360",
+      "Service Cloud",
+      "Experience Cloud"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "agri-conseil-lumiere": {
+   "title": "« Quelle plaque pour ma serre ? » : un conseil 24 h/24",
+   "short": "Conseil serre",
+   "summary": "Un agent recommande la gamme BIO, la nuance et le profil.",
+   "where": "Élevages et serres · serristes, jardineries et maraîchers",
+   "pain": "Le choix dépend de la culture, de la lumière et du climat, et les questions arrivent souvent hors des heures de bureau. Le responsable technique est sollicité pour des questions simples.",
+   "approach": [
+    {
+     "title": "Indexer les données",
+     "text": "Fiches techniques et données optiques mesurées en laboratoire, prêtes à être citées.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Conseiller en ligne",
+     "text": "Sur le site, un agent recommande gamme, nuance et profil selon la culture.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Transmettre le projet",
+     "text": "Le projet qualifié arrive chez le commercial du secteur.",
+     "product": "Sales Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−40 %",
+     "label": "de sollicitations techniques simples",
+     "estimate": true
+    },
+    {
+     "value": "+15 %",
+     "label": "de demandes de serristes converties en projets",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Serriste",
+    "Gérant de jardinerie",
+    "Responsable technique"
+   ],
+   "products": [
+    "Data 360",
+    "Agentforce",
+    "Sales Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-site-web",
+        "label": "Site web",
+        "kind": "ext"
+       },
+       {
+        "id": "x-fiches-techniques",
+        "label": "Fiches techniques",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Endress+Hauser",
+     "customer": "Endress+Hauser",
+     "industry": "Instrumentation industrielle · Suisse",
+     "url": "https://www.salesforce.com/customer-stories/endress-and-hauser/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "50 %",
+      "l": "des demandes traitées en autonomie (objectif)"
+     },
+     "summary": "Agentforce sur le portail client, nourri par Data 360 : la moitié des demandes de service traitées en autonomie et +30 % de productivité attendus.",
+     "verified": true,
+     "products": [
+      "Agentforce",
+      "Data 360",
+      "Service Cloud",
+      "Experience Cloud"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Differentiated Experiences with Agentforce Manufacturing",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/manufacturing_automotive_and_energy_at_dreamforce_2025/episode/episode-s1e4",
+     "duration": "44:50",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2025 · Agentforce Manufacturing",
+     "summary_title": "Des expériences différenciantes",
+     "summary": [
+      "Agentforce Manufacturing pour les clients et les partenaires.",
+      "Ventes, service et réseau de distribution."
+     ],
+     "poster": "Expérience",
+     "who": "Manufacturing",
+     "color": "#032D60"
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "agri-avant-saison": {
+   "title": "Préparer la saison des bâtiments d’élevage",
+   "short": "Avant-saison",
+   "summary": "Des campagnes ciblées par filière et par région, avant le pic de demande.",
+   "where": "Élevages et serres · rénovation des bâtiments d’élevage",
+   "pain": "Les exploitants rénovent leurs bâtiments sur une fenêtre courte et la demande arrive d’un coup. Anticiper évite les ruptures et les délais qui s’allongent.",
+   "approach": [
+    {
+     "title": "Prévoir",
+     "text": "Data 360 croise l’historique de commandes, les régions et les filières.",
+     "product": "Data 360"
+    },
+    {
+     "title": "Cibler",
+     "text": "Des campagnes vers les exploitations susceptibles de rénover avant la saison.",
+     "product": "Marketing Cloud"
+    },
+    {
+     "title": "Partager la prévision",
+     "text": "L’usine voit la demande attendue par gamme et ajuste ses campagnes.",
+     "product": "Tableau"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "×6",
+     "label": "de messages marketing en deux fois moins de temps",
+     "note": "chez JK Cement",
+     "source": {
+      "title": "Salesforce · JK Cement",
+      "url": "https://www.salesforce.com/in/customer-stories/jk-cement/"
+     }
+    },
+    {
+     "value": "−20 %",
+     "label": "de ruptures en haute saison",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Responsable marketing",
+    "Chef de marché agricole",
+    "Planificateur"
+   ],
+   "products": [
+    "Data 360",
+    "Marketing Cloud",
+    "Tableau"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-boutique-en-ligne",
+        "label": "Boutique en ligne",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "data-360",
+        "label": "Data 360",
+        "product": "Data 360"
+       },
+       {
+        "id": "tableau",
+        "label": "Tableau",
+        "product": "Tableau"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "marketing-cloud",
+        "label": "Marketing Cloud",
+        "product": "Marketing Cloud"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "JK Cement",
+     "customer": "JK Cement",
+     "industry": "Ciment et matériaux · Inde",
+     "url": "https://www.salesforce.com/in/customer-stories/jk-cement/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "90 %",
+      "l": "des commandes passées via Salesforce"
+     },
+     "summary": "Une plateforme unique pour commerciaux, distributeurs et prescripteurs : 90 % des commandes et plus de 10 000 partenaires passent par Salesforce.",
+     "verified": true,
+     "products": [
+      "Consumer Goods Cloud",
+      "Experience Cloud",
+      "Marketing Cloud",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Manufacturing Keynote: Building an Agentic Future Together",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e2",
+     "duration": "45:05",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Keynote industrie",
+     "summary_title": "L’industrie agentique",
+     "summary": [
+      "La keynote industrie de Dreamforce 2026.",
+      "Des agents au service des industriels, de la vente aux opérations."
+     ],
+     "poster": "Industrie",
+     "who": "Industriels",
+     "color": "#0B5CAB"
+    },
+    {
+     "type": "trailhead",
+     "title": "Data 360 Setup",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-for-admins",
+     "duration": "40 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "agri-salons-affaires": {
+   "title": "Des salons agricoles aux affaires suivies",
+   "short": "Salon → affaire",
+   "summary": "Chaque contact de salon est qualifié, routé et relancé.",
+   "where": "Élevages et serres · salons professionnels de l’élevage et du végétal",
+   "pain": "Les contacts de salon restent souvent dans des carnets ou des tableurs. Sans relance rapide, l’intérêt retombe.",
+   "approach": [
+    {
+     "title": "Capter",
+     "text": "Badges et formulaires de salon arrivent directement dans le CRM.",
+     "product": "Marketing Cloud"
+    },
+    {
+     "title": "Qualifier",
+     "text": "Un agent évalue le projet, relance et propose un rendez-vous.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Router",
+     "text": "Les projets qualifiés vont au commercial du secteur.",
+     "product": "Sales Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "Minutes",
+     "label": "pour répondre à un lead, au lieu de jours",
+     "note": "chez Siemens",
+     "source": {
+      "title": "Salesforce · Siemens",
+      "url": "https://www.salesforce.com/customer-stories/siemens/"
+     }
+    },
+    {
+     "value": "+25 %",
+     "label": "de contacts de salon convertis en rendez-vous",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Responsable marketing",
+    "Commercial secteur",
+    "Éleveur ou serriste"
+   ],
+   "products": [
+    "Marketing Cloud",
+    "Agentforce",
+    "Sales Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-fichiers-salons",
+        "label": "Fichiers salons",
+        "kind": "ext"
+       },
+       {
+        "id": "x-site-web",
+        "label": "Site web",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "marketing-cloud",
+        "label": "Marketing Cloud",
+        "product": "Marketing Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Siemens",
+     "customer": "Siemens",
+     "industry": "Industrie · Allemagne",
+     "url": "https://www.salesforce.com/customer-stories/siemens/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "2 500",
+      "l": "leads par mois qualifiés par Agentforce"
+     },
+     "summary": "Sur SiePortal (1,4 million d’utilisateurs enregistrés), Agentforce qualifie environ 2 500 leads par mois et ramène la réponse de quelques jours à quelques minutes.",
+     "verified": true,
+     "products": [
+      "Commerce Cloud",
+      "Data 360",
+      "Agentforce"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "solaire-projet-pv": {
+   "title": "Chiffrer un projet FIX O Bat ou FIX O Ser",
+   "short": "Projet PV chiffré",
+   "summary": "Plaques, fixations et accessoires configurés selon la toiture.",
+   "where": "ONDEX SOLAR · toitures agricoles, industrielles et serres",
+   "pain": "Un projet photovoltaïque mêle plaques, fixations et contraintes de charpente. Chiffré à la main, il prend du temps et se compare mal.",
+   "approach": [
+    {
+     "title": "Qualifier la toiture",
+     "text": "Surface, pente, charpente existante et type de bâtiment sur l’affaire.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Configurer le kit",
+     "text": "Plaques, système de fixation et accessoires calculés automatiquement.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Proposer",
+     "text": "Un agent assemble la proposition et les documents techniques.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "−75 %",
+     "label": "de temps de devis",
+     "note": "Salesforce, usage interne d’Agentforce for Revenue",
+     "source": {
+      "title": "Salesforce News · Agentforce for Revenue",
+      "url": "https://www.salesforce.com/news/stories/agentforce-for-revenue-announcement/"
+     }
+    },
+    {
+     "value": "+25 %",
+     "label": "de projets chiffrés par commercial",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Installateur photovoltaïque",
+    "Bureau d’études",
+    "Chef de marché solaire"
+   ],
+   "products": [
+    "Sales Cloud",
+    "Revenue Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-fiches-techniques",
+        "label": "Fiches techniques",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       },
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "doc",
+     "title": "Agentforce for Revenue : des devis en langage naturel dans Revenue Cloud",
+     "url": "https://www.salesforce.com/news/stories/agentforce-for-revenue-announcement/",
+     "source": "Salesforce News",
+     "verified": true
+    },
+    {
+     "type": "video",
+     "title": "Revenue Keynote: Beyond CPQ, One Engine, Every Experience",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/sales_at_dreamforce_2026/episode/episode-s1e5",
+     "duration": "47:01",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Revenue",
+     "summary_title": "Au-delà du CPQ",
+     "summary": [
+      "Un seul moteur pour les devis, les contrats et la facturation.",
+      "Pour chaque canal de vente."
+     ],
+     "poster": "Devis",
+     "who": "Ventes et devis",
+     "color": "#5A1BA9"
+    },
+    {
+     "type": "trailhead",
+     "title": "Efficient Sales with Agentforce Revenue Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/efficient-sales-with-revenue-cloud",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "solaire-academie": {
+   "title": "Former et certifier les installateurs",
+   "short": "Académie de pose",
+   "summary": "Inscriptions, sessions et certifications suivies par installateur.",
+   "where": "ONDEX SOLAR · installateurs partenaires",
+   "pain": "Une pose en surimposition demande un savoir-faire précis. Il faut savoir qui est formé avant de lui confier un chantier.",
+   "approach": [
+    {
+     "title": "Inscrire",
+     "text": "Les installateurs s’inscrivent aux sessions depuis leur espace partenaire.",
+     "product": "Experience Cloud"
+    },
+    {
+     "title": "Certifier",
+     "text": "Le statut de certification s’affiche sur le compte du partenaire.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Relancer",
+     "text": "Rappels de recyclage et nouveautés produit envoyés au bon moment.",
+     "product": "Marketing Cloud"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "100 %",
+     "label": "des chantiers confiés à des poseurs formés",
+     "estimate": true
+    },
+    {
+     "value": "−50 %",
+     "label": "de gestion administrative des formations",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Formateur",
+    "Installateur partenaire",
+    "Chef de marché solaire"
+   ],
+   "products": [
+    "Experience Cloud",
+    "Sales Cloud",
+    "Marketing Cloud"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-outil-de-formation",
+        "label": "Outil de formation",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "experience-cloud",
+        "label": "Experience Cloud",
+        "product": "Experience Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       },
+       {
+        "id": "marketing-cloud",
+        "label": "Marketing Cloud",
+        "product": "Marketing Cloud"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "trailhead",
+     "title": "Partner Relationship Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/partner-relationship-management",
+     "duration": "30 min",
+     "source": "Trailhead",
+     "verified": true
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "solaire-reseau-installateurs": {
+   "title": "Un réseau d’installateurs partenaires",
+   "short": "Réseau PV",
+   "summary": "Annuaire, leads partagés et documents pour les partenaires solaires.",
+   "where": "ONDEX SOLAR · installateurs spécialisés",
+   "pain": "Une nouvelle solution a besoin d’installateurs actifs et bien équipés. Sans espace partagé, les leads et les retours du terrain se perdent.",
+   "approach": [
+    {
+     "title": "Ouvrir l’espace partenaires",
+     "text": "Documents, argumentaires et suivi des projets en un seul endroit.",
+     "product": "Experience Cloud"
+    },
+    {
+     "title": "Distribuer les leads",
+     "text": "Les demandes sont attribuées à l’installateur le plus proche.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Animer la communauté",
+     "text": "Questions, retours de chantier et nouveautés dans un canal Slack partagé.",
+     "product": "Slack"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "10 000",
+     "label": "partenaires de distribution actifs sur la plateforme",
+     "note": "chez JK Cement",
+     "source": {
+      "title": "Salesforce · JK Cement",
+      "url": "https://www.salesforce.com/in/customer-stories/jk-cement/"
+     }
+    },
+    {
+     "value": "30",
+     "label": "installateurs actifs la première année",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Installateur partenaire",
+    "Chef de marché solaire"
+   ],
+   "products": [
+    "Experience Cloud",
+    "Sales Cloud",
+    "Slack"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-annuaire-partenaires",
+        "label": "Annuaire partenaires",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "experience-cloud",
+        "label": "Experience Cloud",
+        "product": "Experience Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "slack",
+        "label": "Slack",
+        "product": "Slack"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "JK Cement",
+     "customer": "JK Cement",
+     "industry": "Ciment et matériaux · Inde",
+     "url": "https://www.salesforce.com/in/customer-stories/jk-cement/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "90 %",
+      "l": "des commandes passées via Salesforce"
+     },
+     "summary": "Une plateforme unique pour commerciaux, distributeurs et prescripteurs : 90 % des commandes et plus de 10 000 partenaires passent par Salesforce.",
+     "verified": true,
+     "products": [
+      "Consumer Goods Cloud",
+      "Experience Cloud",
+      "Marketing Cloud",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Partner Relationship Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/partner-relationship-management",
+     "duration": "30 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "siege-reclamations-360": {
+   "title": "Des réclamations tracées, relancées, soldées",
+   "short": "SAV 360",
+   "summary": "Dossiers liés, délais suivis, avoir ou relivraison sur un seul écran.",
+   "where": "Siège · ADV et service après-vente",
+   "pain": "Peu nombreuses mais lourdes, les réclamations s’égarent facilement entre e-mails et tableurs. Le client ne sait pas où en est sa demande.",
+   "approach": [
+    {
+     "title": "Ouvrir le dossier",
+     "text": "E-mail, téléphone ou portail : un dossier unique, rattaché au client et à la commande.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Orchestrer",
+     "text": "Dossiers parent et enfant, délais et relances automatiques.",
+     "product": "Service Cloud"
+    },
+    {
+     "title": "Résumer",
+     "text": "Un agent résume l’historique et propose la solution : avoir ou relivraison.",
+     "product": "Agentforce"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "75 %",
+     "label": "d’avis positifs des conseillers sur leur assistant IA",
+     "note": "chez Fisher & Paykel",
+     "source": {
+      "title": "Salesforce · Fisher & Paykel",
+      "url": "https://www.salesforce.com/customer-stories/fisher-and-paykel/agentic-service-rep-assistance/"
+     }
+    },
+    {
+     "value": "−50 %",
+     "label": "de délai de traitement",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Assistante ADV",
+    "Responsable qualité",
+    "Client négoce"
+   ],
+   "products": [
+    "Service Cloud",
+    "Agentforce"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-messagerie",
+        "label": "Messagerie",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "service-cloud",
+        "label": "Service Cloud",
+        "product": "Service Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Fisher & Paykel",
+     "customer": "Fisher & Paykel",
+     "industry": "Électroménager · Nouvelle-Zélande",
+     "url": "https://www.salesforce.com/customer-stories/fisher-and-paykel/agentic-self-service/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "80 %",
+      "l": "des problèmes résolus en libre-service"
+     },
+     "summary": "Avec Agentforce et Data 360, les clients résolvent seuls environ 80 % de leurs problèmes ; l’assistant des conseillers recueille 75 % d’avis positifs.",
+     "verified": true,
+     "products": [
+      "Agentforce",
+      "Service Cloud",
+      "Data 360"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Introduction to Agentforce",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agentforce",
+     "duration": "10 min",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "siege-marge-pilotage": {
+   "title": "La marge visible par client et par gamme",
+   "short": "Marge pilotée",
+   "summary": "Prix, remises et marge visibles dès le devis.",
+   "where": "Siège · direction commerciale et contrôle de gestion",
+   "pain": "On connaît souvent le chiffre d’affaires, mais pas la rentabilité par client ou par gamme. Les remises s’accordent alors sans garde-fou.",
+   "approach": [
+    {
+     "title": "Calculer",
+     "text": "La marge s’affiche sur chaque ligne de devis.",
+     "product": "Revenue Cloud"
+    },
+    {
+     "title": "Encadrer",
+     "text": "Les seuils de remise déclenchent une approbation.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Analyser",
+     "text": "Tableau croise marge, client, gamme et zone.",
+     "product": "Tableau"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "+2 pts",
+     "label": "de marge brute",
+     "estimate": true
+    },
+    {
+     "value": "−30 %",
+     "label": "de remises hors grille",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Directeur commercial",
+    "Contrôleur de gestion",
+    "Direction générale"
+   ],
+   "products": [
+    "Revenue Cloud",
+    "Sales Cloud",
+    "Tableau"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-tableaux-de-bord",
+        "label": "Tableaux de bord",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "tableau",
+        "label": "Tableau",
+        "product": "Tableau"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "revenue-cloud",
+        "label": "Revenue Cloud",
+        "product": "Revenue Cloud"
+       },
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "Air Liquide et Poclain",
+     "customer": "Air Liquide et Poclain",
+     "industry": "Industrie · France",
+     "url": "https://www.salesforce.com/fr/blog/air-liquide-poclain/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "150 000",
+      "l": "références devisées dans Revenue Cloud (Poclain)"
+     },
+     "summary": "Des devis encadrés par des prix minimum et cible, la fin d’Excel et de la double saisie : les données partent automatiquement vers l’ERP.",
+     "verified": true,
+     "products": [
+      "Revenue Cloud"
+     ]
+    },
+    {
+     "type": "trailhead",
+     "title": "Efficient Sales with Agentforce Revenue Management",
+     "url": "https://trailhead.salesforce.com/content/learn/modules/efficient-sales-with-revenue-cloud",
+     "duration": "1 h 10",
+     "source": "Trailhead",
+     "verified": true
+    }
+   ]
+  },
+  "siege-comite-lundi": {
+   "title": "Le comité commercial du lundi, en direct",
+   "short": "Comité en direct",
+   "summary": "Affaires en cours, prévisions et signaux de la semaine, sans consolidation manuelle.",
+   "where": "Siège · direction et équipes commerciales",
+   "pain": "Les chiffres des réunions se consolident à la main et datent déjà le jour du comité. Le temps passe à vérifier plutôt qu’à décider.",
+   "approach": [
+    {
+     "title": "Prévoir",
+     "text": "Prévisions et affaires en cours à jour, par commercial et par marché.",
+     "product": "Sales Cloud"
+    },
+    {
+     "title": "Synthétiser",
+     "text": "Un agent résume la semaine : affaires gagnées, risques, réclamations.",
+     "product": "Agentforce"
+    },
+    {
+     "title": "Partager",
+     "text": "Un tableau de bord unique, ouvert avant la réunion.",
+     "product": "Tableau"
+    }
+   ],
+   "outcomes": [
+    {
+     "value": "20 → 1",
+     "label": "rapports remplacés par une seule vue",
+     "note": "chez JK Cement",
+     "source": {
+      "title": "Salesforce · JK Cement",
+      "url": "https://www.salesforce.com/in/customer-stories/jk-cement/"
+     }
+    },
+    {
+     "value": "−½ jour",
+     "label": "de préparation par comité",
+     "estimate": true
+    }
+   ],
+   "personas": [
+    "Direction générale",
+    "Directeur commercial",
+    "Commerciaux"
+   ],
+   "products": [
+    "Sales Cloud",
+    "Agentforce",
+    "Tableau"
+   ],
+   "architecture": {
+    "columns": [
+     {
+      "label": "Systèmes ONDEX",
+      "nodes": [
+       {
+        "id": "x-erp",
+        "label": "ERP",
+        "kind": "ext"
+       },
+       {
+        "id": "x-tableaux-de-bord",
+        "label": "Tableaux de bord",
+        "kind": "ext"
+       }
+      ]
+     },
+     {
+      "label": "Données et intégration",
+      "nodes": [
+       {
+        "id": "tableau",
+        "label": "Tableau",
+        "product": "Tableau"
+       }
+      ]
+     },
+     {
+      "label": "Applications",
+      "nodes": [
+       {
+        "id": "sales-cloud",
+        "label": "Sales Cloud",
+        "product": "Sales Cloud"
+       }
+      ]
+     },
+     {
+      "label": "Agents et collaboration",
+      "nodes": [
+       {
+        "id": "agentforce",
+        "label": "Agentforce",
+        "product": "Agentforce"
+       }
+      ]
+     }
+    ],
+    "steps": "auto"
+   },
+   "resources": [
+    {
+     "type": "story",
+     "title": "JK Cement",
+     "customer": "JK Cement",
+     "industry": "Ciment et matériaux · Inde",
+     "url": "https://www.salesforce.com/in/customer-stories/jk-cement/",
+     "source": "Salesforce",
+     "stat": {
+      "v": "90 %",
+      "l": "des commandes passées via Salesforce"
+     },
+     "summary": "Une plateforme unique pour commerciaux, distributeurs et prescripteurs : 90 % des commandes et plus de 10 000 partenaires passent par Salesforce.",
+     "verified": true,
+     "products": [
+      "Consumer Goods Cloud",
+      "Experience Cloud",
+      "Marketing Cloud",
+      "Tableau"
+     ]
+    },
+    {
+     "type": "video",
+     "title": "Turning AI Pilot Sprawl into Measurable Agentic Value",
+     "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e12",
+     "duration": "19:51",
+     "source": "Salesforce+",
+     "verified": true,
+     "kicker": "Dreamforce 2026 · Valeur mesurable",
+     "summary_title": "Du pilote à la valeur",
+     "summary": [
+      "Passer de pilotes dispersés à une valeur mesurable.",
+      "Le retour d’un industriel avec plusieurs agents en production."
+     ],
+     "poster": "Valeur",
+     "who": "Industriels",
+     "color": "#06A59A"
+    }
+   ]
+  }
+ },
+ "story": {
+  "label": "Feuille de route",
+  "sections": [
+   {
+    "type": "statement",
+    "label": "Vision",
+    "eyebrow": "Usine · Stock · Export · Négoces · Chantiers · Élevages et serres · Solaire · Siège",
+    "text": "Chaque plaque, de l’usine au chantier.",
+    "muted": "Un agent aux côtés de chaque équipe.",
+    "lead": "Agentforce sur Data 360 relie l’usine de Chevigny, le stock, l’export, les négoces, les chantiers et les exploitations : les devis partent plus vite, les réclamations remontent au lot, les poseurs trouvent la bonne réponse et chaque marché se pilote avec les mêmes données. Les équipes gardent ce qui demande du jugement et de la relation."
+   },
+   {
+    "type": "numbers",
+    "label": "En chiffres",
+    "items": [
+     {
+      "text": "1965",
+      "label": "lancement de l’extrusion à Chevigny",
+      "src": "ondex.com"
+     },
+     {
+      "v": 5,
+      "suf": " ha",
+      "label": "de site : production, R&D et administration",
+      "src": "La Gazette France, 2025"
+     },
+     {
+      "v": 100,
+      "pre": "~",
+      "label": "collaborateurs",
+      "src": "La Gazette France, 2025"
+     },
+     {
+      "v": 16,
+      "label": "gammes au catalogue",
+      "src": "ondex.com"
+     },
+     {
+      "v": "auto:usecases",
+      "label": "cas d’usage identifiés"
+     }
+    ]
+   },
+   {
+    "type": "phases",
+    "label": "Séquence",
+    "word": "Trois étapes",
+    "eyebrow": "Séquence",
+    "title": "Dans quel ordre, et ce que chaque étape rend possible",
+    "text": "Commencer là où le commerce et l’ADV le ressentent chaque jour, relier ensuite l’usine et le stock, puis ouvrir le réseau aux négoces, aux installateurs et à l’export.",
+    "items": [
+     {
+      "phase": 1,
+      "title": "Le cœur commercial",
+      "text": "Devis configurés, comptes rendus de visite, réclamations tracées et pilotage hebdomadaire.",
+      "note": "**Rend possible :** des données commerciales fiables, partagées par tous.",
+      "usecases": [
+       "negoce-devis-express",
+       "chantier-visite-mobile",
+       "siege-reclamations-360",
+       "siege-comite-lundi"
+      ]
+     },
+     {
+      "phase": 2,
+      "title": "Relier l’usine et le stock",
+      "text": "Commandes sans ressaisie, planning visible, réclamations rattachées au lot et marge pilotée.",
+      "note": "**S’appuie sur :** l’intégration de l’ERP et du MES.",
+      "usecases": [
+       "entrepot-commande-directe",
+       "usine-campagnes-visibles",
+       "usine-reclamation-lot",
+       "siege-marge-pilotage"
+      ]
+     },
+     {
+      "phase": 3,
+      "title": "Ouvrir le réseau",
+      "text": "Espace négoces, réseau d’installateurs ONDEX SOLAR, conseil serre en ligne et pilotage export.",
+      "note": "**S’appuie sur :** un catalogue et des données client uniques.",
+      "usecases": [
+       "negoce-portail-b2b",
+       "solaire-reseau-installateurs",
+       "agri-conseil-lumiere",
+       "export-pilotage-pays"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "catalog",
+    "label": "Catalogue",
+    "eyebrow": "Catalogue complet",
+    "title": "Tous les cas d’usage, par front",
+    "text": "Des hypothèses de valeur fondées sur le fonctionnement des industriels des matériaux de construction et sur ce qui est déjà en production chez des industriels comparables. Chacune s’ouvre en 3D avec son adaptation, son architecture et ses ressources."
+   },
+   {
+    "type": "reel",
+    "label": "Vidéos",
+    "eyebrow": "Dreamforce · Salesforce+",
+    "title": "À voir en action",
+    "lead": "Quatre sessions sur la façon dont les industriels avancent déjà avec les agents.",
+    "videos": [
+     {
+      "type": "video",
+      "title": "Manufacturing Keynote: Building an Agentic Future Together",
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e2",
+      "duration": "45:05",
+      "source": "Salesforce+",
+      "verified": true,
+      "kicker": "Dreamforce 2026 · Keynote industrie",
+      "summary_title": "L’industrie agentique",
+      "summary": [
+       "La keynote industrie de Dreamforce 2026.",
+       "Des agents au service des industriels, de la vente aux opérations."
+      ],
+      "poster": "Industrie",
+      "who": "Industriels",
+      "color": "#0B5CAB"
+     },
+     {
+      "type": "video",
+      "title": "Revenue Keynote: Beyond CPQ, One Engine, Every Experience",
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/sales_at_dreamforce_2026/episode/episode-s1e5",
+      "duration": "47:01",
+      "source": "Salesforce+",
+      "verified": true,
+      "kicker": "Dreamforce 2026 · Revenue",
+      "summary_title": "Au-delà du CPQ",
+      "summary": [
+       "Un seul moteur pour les devis, les contrats et la facturation.",
+       "Pour chaque canal de vente."
+      ],
+      "poster": "Devis",
+      "who": "Ventes et devis",
+      "color": "#5A1BA9"
+     },
+     {
+      "type": "video",
+      "title": "The Manufacturing Cloud ROI-Focused Roadmap",
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/manufacturing_automotive_and_energy_at_dreamforce_2026/episode/episode-s1e11",
+      "duration": "32:24",
+      "source": "Salesforce+",
+      "verified": true,
+      "kicker": "Dreamforce 2026 · Feuille de route",
+      "summary_title": "La feuille de route Manufacturing",
+      "summary": [
+       "Les prochaines étapes de Manufacturing Cloud.",
+       "Une feuille de route centrée sur le retour sur investissement."
+      ],
+      "poster": "Feuille de route",
+      "who": "Manufacturing Cloud",
+      "color": "#2E844A"
+     },
+     {
+      "type": "video",
+      "title": "How AI Agents Are Transforming Manufacturing Efficiency",
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/manufacturing_automotive_and_energy_at_dreamforce_2025/episode/episode-s1e2",
+      "duration": "08:47",
+      "source": "Salesforce+",
+      "verified": true,
+      "kicker": "Dreamforce 2025 · En moins de 10 minutes",
+      "summary_title": "Des agents pour l’efficacité",
+      "summary": [
+       "Des agents IA dans la vente industrielle.",
+       "Le témoignage d’un industriel, en moins de dix minutes."
+      ],
+      "poster": "Agents",
+      "who": "Témoignage",
+      "color": "#0176D3"
+     }
+    ],
+    "note": "Sessions en anglais."
+   },
+   {
+    "type": "closing",
+    "label": "Prochaines étapes",
+    "color": "sage",
+    "eyebrow": "Prochaines étapes",
+    "title": "De la carte au premier cas d’usage en production",
+    "rows": [
+     [
+      "Choisir le premier périmètre",
+      "Devis configurés et visites mobiles pour l’équipe commerciale France."
+     ],
+     [
+      "Cartographier les données",
+      "ERP, tarifs, planning des lignes et documents techniques : les flux à relier en premier."
+     ],
+     [
+      "Mesurer dès le premier jour",
+      "Délai de devis, réclamations et taux de transformation, pour fixer des objectifs réels."
+     ]
+    ],
+    "thanks": "Merci",
+    "foot": [
+     "ONDEX | Salesforce",
+     "Panorama360 · Matériaux de construction · 2026"
+    ],
+    "legal": [
+     "**Statut du document.** Support de travail pour une conversation de valeur. Les cas d’usage sont **proposés**, non engagés : aucun périmètre, aucune licence ni aucun calendrier n’ont été arrêtés. Les indicateurs sont des **références d’autres entreprises ou des estimations** pour dimensionner la discussion, pas des engagements contractuels : les objectifs se fixent avec ONDEX sur sa base réelle.",
+     "**Marques.** ONDEX et ses marques appartiennent à leurs propriétaires. Le monde 3D est une illustration ; le logo n’apparaît qu’avec le fichier officiel et l’accord d’ONDEX.",
+     "**Sources publiques.** ondex.com (à propos, gammes, applications, ONDEX SOLAR), La Gazette France (juillet 2025), AIAC (septembre 2025) ; témoignages clients et annonces sur salesforce.com et mulesoft.com."
+    ]
+   }
+  ]
+ },
+ "presenter": {
+  "name": "Patrick Pelot",
+  "title": "Senior Account SE",
+  "company": "Salesforce",
+  "email": "ppelot@salesforce.com",
+  "photo": "https://avatars.slack-edge.com/2020-12-11/1591684660400_c6210db8ffcc5a0d7b60_original.png"
+ },
+ "underworld": {
+  "hubs": [
+   {
+    "type": "erp",
+    "label": "ERP et stocks",
+    "stage": "stock",
+    "mode": "integrated"
+   },
+   {
+    "type": "iot",
+    "label": "MES des lignes",
+    "stage": "usine",
+    "mode": "integrated"
+   },
+   {
+    "type": "contact",
+    "label": "Téléphone et e-mail",
+    "stage": "siege",
+    "mode": "integrated"
+   },
+   {
+    "type": "billing",
+    "label": "Facturation et GED",
+    "stage": "siege",
+    "mode": "integrated"
+   },
+   {
+    "type": "lake",
+    "label": "Qualité et indicateurs",
+    "stage": "usine",
+    "mode": "federated"
+   },
+   {
+    "type": "gis",
+    "label": "Zones de livraison",
+    "stage": "stock",
+    "mode": "federated"
+   }
+  ],
+  "question": {
+   "text": "Peut-on livrer ce chantier avant le 20 juillet, au bon prix et avec notre marge ?",
+   "usecase": "negoce-devis-express",
+   "hub": "erp",
+   "island": "revenue",
+   "screen": "slackforce"
+  },
+  "objects": [
+   "Compte",
+   "Distributeur",
+   "Chantier",
+   "Devis",
+   "Commande",
+   "Référence",
+   "Lot de production",
+   "Réclamation",
+   "Livraison",
+   "Accord-cadre"
+  ],
+  "agents": [
+   {
+    "usecase": "usine-voix-client-rd",
+    "stage": "usine"
+   },
+   {
+    "usecase": "usine-campagnes-visibles",
+    "stage": "usine",
+    "base": "Marshall"
+   },
+   {
+    "usecase": "usine-reclamation-lot",
+    "stage": "usine"
+   },
+   {
+    "usecase": "entrepot-commande-directe",
+    "stage": "stock",
+    "base": "Marshall"
+   },
+   {
+    "usecase": "entrepot-suivi-livraison",
+    "stage": "stock",
+    "base": "Casey"
+   },
+   {
+    "usecase": "entrepot-franco-zone",
+    "stage": "stock"
+   },
+   {
+    "usecase": "export-pilotage-pays",
+    "stage": "export",
+    "base": "Hunter"
+   },
+   {
+    "usecase": "export-sedentaire-ia",
+    "stage": "export",
+    "base": "Piper"
+   },
+   {
+    "usecase": "export-veille-marche",
+    "stage": "export"
+   },
+   {
+    "usecase": "negoce-accords-cadres",
+    "stage": "negoce"
+   },
+   {
+    "usecase": "negoce-devis-express",
+    "stage": "negoce",
+    "base": "Marshall"
+   },
+   {
+    "usecase": "negoce-portail-b2b",
+    "stage": "negoce",
+    "base": "Carter"
+   },
+   {
+    "usecase": "chantier-visite-mobile",
+    "stage": "chantier",
+    "base": "Hunter"
+   },
+   {
+    "usecase": "chantier-prescription",
+    "stage": "chantier",
+    "base": "Hunter"
+   },
+   {
+    "usecase": "chantier-assistance-pose",
+    "stage": "chantier",
+    "base": "Casey"
+   },
+   {
+    "usecase": "agri-conseil-lumiere",
+    "stage": "agri",
+    "base": "Casey"
+   },
+   {
+    "usecase": "agri-avant-saison",
+    "stage": "agri"
+   },
+   {
+    "usecase": "agri-salons-affaires",
+    "stage": "agri",
+    "base": "Piper"
+   },
+   {
+    "usecase": "solaire-projet-pv",
+    "stage": "solaire"
+   },
+   {
+    "usecase": "solaire-academie",
+    "stage": "solaire"
+   },
+   {
+    "usecase": "solaire-reseau-installateurs",
+    "stage": "solaire"
+   },
+   {
+    "usecase": "siege-reclamations-360",
+    "stage": "siege",
+    "base": "Fin"
+   },
+   {
+    "usecase": "siege-marge-pilotage",
+    "stage": "siege"
+   },
+   {
+    "usecase": "siege-comite-lundi",
+    "stage": "siege"
+   }
+  ],
+  "copy": {
+   "dock": {
+    "l0": "Guardian",
+    "l1": "Data 360",
+    "l2": "Customer 360",
+    "l3": "Agentforce",
+    "l4": "AIforce",
+    "all": "Tout"
+   },
+   "dockT": {
+    "l0": "Salesforce Guardian avec Zero Data Retention",
+    "l1": "Data 360 · Intégration, fédération et harmonisation",
+    "l2": "Customer 360 · Applications, sémantique et intelligence des processus",
+    "l3": "Agentforce · Main-d’œuvre numérique",
+    "l4": "AIforce · Interface en direct",
+    "all": "Salesforce, moteur de la révolution agentique"
+   },
+   "face": {
+    "l0": [
+     "Salesforce Guardian",
+     "avec Zero Data Retention"
+    ],
+    "l1": [
+     "Data 360",
+     "Intégration, fédération et harmonisation"
+    ],
+    "l2": [
+     "Customer 360",
+     "Applications, sémantique et processus"
+    ],
+    "l3": [
+     "Agentforce",
+     "Main-d’œuvre numérique"
+    ],
+    "l4": [
+     "AIforce",
+     "Interface en direct"
+    ]
+   },
+   "legend": {
+    "gold": "Les données d’{client} : elles restent dans le périmètre de confiance",
+    "white": "Vers le modèle : juste ce qu’il faut pour répondre, sans conservation"
+   },
+   "steps": {
+    "intro": {
+     "eyebrow": "Sous l’opération",
+     "title": "Le QG numérique d’{client}",
+     "text": "Cinq couches travaillent ensemble pour que chaque question de l’opération reçoive une réponse fiable.",
+     "spine": "La question descend de l’opération : « {q} »",
+     "rows": [
+      [
+       "Couches",
+       "Guardian, Data 360, Customer 360, Agentforce et AIforce"
+      ],
+      [
+       "Agents",
+       "{nOwn} agents de l’opération et {nJobLit} prêts à l’emploi"
+      ]
+     ],
+     "cta": "Commencer par la base"
+    },
+    "l0": {
+     "title": "La confiance comme fondation",
+     "text": "Les données d’{client} restent protégées : chaque agent ne voit que ce que son utilisateur peut voir, et le modèle n’en conserve rien.",
+     "spine": "La question arrive avec les droits du commercial : il ne voit que ce qu’il peut voir.",
+     "rows": [
+      [
+       "Modèles",
+       "Anthropic, AWS, Google, NVIDIA, OpenAI et Salesforce"
+      ],
+      [
+       "Règle",
+       "Un agent ne voit que ce que voit la personne qui demande"
+      ]
+     ]
+    },
+    "l1": {
+     "title": "Un contexte qui comprend le métier",
+     "text": "Une seule vue de l’activité, avec des données connectées là où elles vivent déjà.",
+     "spine": "Stocks et commandes de l’ERP arrivent intégrés ; les zones de livraison, fédérées.",
+     "rows": [
+      [
+       "Intégrés",
+       "{intHubs}"
+      ],
+      [
+       "Fédérés (Zero Copy)",
+       "{fedHubs}"
+      ]
+     ]
+    },
+    "l2": {
+     "title": "Là où vivent les règles du métier",
+     "text": "Les applications et les règles qui font déjà tourner le travail : personnes et agents suivent le même processus.",
+     "spine": "Revenue Cloud applique le tarif du contrat, les remises et les règles de franco.",
+     "rows": [
+      [
+       "Applications utilisées",
+       "{nLit}"
+      ],
+      [
+       "Sémantique",
+       "{objects}"
+      ]
+     ]
+    },
+    "l3": {
+     "title": "Une main-d’œuvre numérique",
+     "text": "Un agent sur chaque front, aux côtés des équipes : chacun consacre son temps à ce qui compte le plus.",
+     "spine": "Marshall vérifie le stock et le planning des lignes, puis prépare le devis avec l’agent du front.",
+     "rows": [
+      [
+       "Agents de l’opération",
+       "{nPods}, un par front"
+      ],
+      [
+       "Prêts à l’emploi",
+       "{jobsLit}"
+      ]
+     ]
+    },
+    "l4": {
+     "title": "Salesforce là où le travail se fait",
+     "text": "Les réponses arrivent dans les outils que l’équipe utilise déjà, avec la même sécurité.",
+     "spine": "La réponse arrive dans Slack : le commercial valide la proposition en un clic.",
+     "rows": [
+      [
+       "Interfaces",
+       "Claude · Slack · Coworker · Mobile"
+      ],
+      [
+       "Harnais",
+       "MCP, API, plug-ins et skills"
+      ]
+     ]
+    },
+    "all": {
+     "eyebrow": "Vue d’ensemble",
+     "title": "{client}, une entreprise agentique",
+     "text": "Personnes et agents font avancer ensemble la réussite des clients, avec des données unifiées et la confiance Salesforce dans chaque réponse.",
+     "close": "Personnes et agents, ensemble.",
+     "follow": "Suivre la question",
+     "chips": "Le parcours d’un cas d’usage",
+     "foot": "Certaines fonctionnalités sont en bêta ou seront annoncées plus tard ; périmètre et disponibilité peuvent évoluer."
+    }
+   },
+   "hs": {
+    "lvlD": [
+     "Sécurité, droits d’accès et Zero Data Retention pour chaque requête.",
+     "Intégration, fédération et harmonisation du contexte.",
+     "Applications, sémantique et intelligence des processus.",
+     "Un agent par front, plus des agents prêts à l’emploi.",
+     "La plateforme dans toutes les interfaces d’IA."
+    ],
+    "guardian": {
+     "t": "Salesforce Guardian",
+     "s": "Salesforce Guardian",
+     "d": "Chaque requête vers un modèle franchit cette porte de confiance avec les droits existants.",
+     "c": "Chez {client} : chaque agent utilise les droits de son utilisateur.",
+     "x": "Sécurité et gouvernance sur chaque requête : droits, règles et Zero Data Retention."
+    },
+    "gate": {
+     "t": "Porte de confiance",
+     "s": "Porte de confiance",
+     "d": "Chaque requête vers un modèle part d’ici, avec les droits et règles existants."
+    },
+    "zdr": {
+     "t": "Zero Data Retention",
+     "s": "Zero Data Retention",
+     "d": "Les données servent à répondre ; le fournisseur du modèle n’en garde rien.",
+     "c": "Chez {client} : tarifs, marges et données clients ne sont jamais conservés par le modèle."
+    },
+    "models": {
+     "t": "Choix du modèle",
+     "s": "Modèles",
+     "d": "Anthropic, AWS, Google, NVIDIA, OpenAI ou Salesforce : le bon modèle pour chaque tâche."
+    },
+    "integration": {
+     "t": "Intégration",
+     "d": "Chaque système se connecte une fois et partage un même contexte fiable.",
+     "c": "Chez {client} : {intHubs}."
+    },
+    "federation": {
+     "t": "Fédération (Zero Copy)",
+     "s": "Zero Copy",
+     "d": "Les données restent où elles vivent : ni déplacées, ni copiées.",
+     "c": "Chez {client} : {fedHubs}."
+    },
+    "harmonization": {
+     "t": "Harmonisation",
+     "d": "Chaque source est rapprochée d’un modèle commun et d’un profil unifié.",
+     "c": "Chez {client} : un compte, un chantier, une référence, une seule version."
+    },
+    "memory": {
+     "t": "Métadonnées et mémoire",
+     "s": "Métadonnées et mémoire",
+     "d": "Ce que signifie chaque donnée, et la mémoire qu’utilisent les agents.",
+     "c": "Chez {client} : chaque agent connaît l’historique de chaque compte et de chaque chantier."
+    },
+    "semantics": {
+     "t": "Sémantique",
+     "s": "Sémantique",
+     "d": "Les objets métier et leurs relations, avec le même sens pour tous.",
+     "c": "Chez {client} : {objects}."
+    },
+    "flows": {
+     "t": "Processus et actions",
+     "s": "Processus et actions",
+     "d": "Processus, droits et actions dont héritent les agents pour faire le travail.",
+     "c": "Chez {client} : remises, franco et approbations deviennent des règles."
+    },
+    "app": {
+     "c": "Chez {client} : {ucs}."
+    },
+    "appN": {
+     "sales": "Ventes",
+     "service": "Service",
+     "field": "Field Service",
+     "marketing": "Marketing",
+     "commerce": "Commerce",
+     "revenue": "Revenue",
+     "industries": "Industries",
+     "tableau": "Tableau",
+     "ithr": "IT et RH",
+     "supply": "Supply Chain",
+     "netzero": "Net Zero"
+    },
+    "appD": {
+     "sales": "Affaires, opportunités et prévisions au même endroit.",
+     "service": "Des dossiers résolus sur tous les canaux, avec tout le contexte.",
+     "field": "Interventions, planification et techniciens mobiles.",
+     "marketing": "Campagnes et parcours, B2B et B2C.",
+     "commerce": "Commande en ligne et boutiques, B2B et B2C.",
+     "revenue": "Devis, contrat et facturation en un seul flux.",
+     "industries": "Modèles et processus métier, prêts à l’emploi.",
+     "tableau": "Des analyses fiables pour décider.",
+     "ithr": "Les demandes des collaborateurs résolues dans Slack et les portails.",
+     "supply": "Approvisionnement et back-office de bout en bout, avec Agentforce Operations (Regrello).",
+     "netzero": "Empreinte carbone sur les scopes 1, 2 et 3, avec Agentforce Net Zero."
+    },
+    "pod": {
+     "t": "Agent {stage}"
+    },
+    "ready": {
+     "t": "Agents prêts à l’emploi",
+     "d": "Des agents Agentforce prêts à déployer, par fonction et par secteur.",
+     "c": "Chez {client} : {jobsLit}."
+    },
+    "builder": {
+     "t": "Agent Builder",
+     "d": "Tout agent peut être construit, avec les règles et les droits de l’entreprise."
+    },
+    "claude": {
+     "t": "Claude",
+     "chip": "beta",
+     "d": "Salesforce dans Claude : un serveur MCP prêt à l’emploi avec 37 compétences commerciales."
+    },
+    "slack": {
+     "t": "Slack",
+     "d": "Slackforce : le contexte et les actions Salesforce dans chaque conversation, avec Slackbot.",
+     "c": "Chez {client} : commerce, ADV et qualité décident dans Slack, sans changer d’outil."
+    },
+    "lightning": {
+     "t": "Agentforce Coworker",
+     "d": "Un coéquipier IA qui travaille à vos côtés et fait appel à vos agents."
+    },
+    "toolkit": {
+     "t": "Headless Toolkit",
+     "d": "Architecture ouverte : MCP, API, plug-ins et skills sur toute la plateforme."
+    },
+    "informatica": {
+     "t": "Informatica",
+     "d": "Qualité des données : nettoie, fusionne les doublons, garde une seule version de chaque fiche.",
+     "c": "Chez {client} : unifie comptes, contacts et références articles."
+    },
+    "tableau": {
+     "t": "Tableau · Knowledge Engine",
+     "d": "Indicateurs, relations et règles reliés : chaque agent répond avec le même sens.",
+     "c": "Chez {client} : ventes, marges et réclamations reliées pour répondre en quelques secondes."
+    },
+    "fabric": {
+     "t": "MuleSoft Agent Fabric",
+     "d": "Enregistre, orchestre et gouverne chaque agent, Salesforce ou tiers.",
+     "c": "Chez {client} : les agents de chaque front et ceux des partenaires, sous les mêmes règles."
+    },
+    "mcp": {
+     "t": "MCP · le harnais",
+     "d": "Apporte les données, les droits et les règles Salesforce à toute IA.",
+     "c": "Chez {client} : on interroge depuis Slack ou le mobile, sans ouvrir Salesforce.",
+     "x": "Le harnais enveloppe l’IA dans le contexte, les règles, les droits et la gouvernance de Salesforce. Grâce à MCP, chaque interface les utilise directement : les administrateurs connectent une fois, sans nouvel identifiant à gérer."
+    },
+    "phone": {
+     "t": "Mobile",
+     "s": "Mobile",
+     "d": "Le même agent et la même réponse sur le téléphone, avec les mêmes droits.",
+     "c": "Chez {client} : le technico-commercial dicte ses visites et valide ses devis depuis le chantier."
+    },
+    "job": {
+     "Piper": {
+      "t": "Piper · leads entrants",
+      "role": "Leads entrants",
+      "d": "Travaille le site et la messagerie, et transforme les leads entrants en opportunités.",
+      "sayG": "Je travaille le site et la messagerie, et je transforme les leads entrants en opportunités.",
+      "c": "Chez {client} : qualifie les demandes du site, des salons et de l’export.",
+      "say": "Chez ONDEX, je qualifie les demandes du site, des salons et de l’export, dans leur langue."
+     },
+     "Hunter": {
+      "t": "Hunter · vente sortante",
+      "role": "Vente sortante",
+      "d": "Fait avancer les affaires, de la recherche au premier contact, avec les commerciaux.",
+      "sayG": "Je fais avancer les affaires, de la recherche au premier contact, avec les commerciaux.",
+      "c": "Chez {client} : prépare les visites et repère les chantiers à suivre.",
+      "say": "Chez ONDEX, je prépare les visites des technico-commerciaux et je repère les projets à suivre."
+     },
+     "Casey": {
+      "t": "Casey · agent d’aide",
+      "role": "Aide client et Field Service",
+      "d": "Répond par voix, SMS, WhatsApp et chat ; planifie les interventions Field Service.",
+      "sayG": "Je réponds par la voix, SMS, WhatsApp et chat, et je planifie les interventions Field Service.",
+      "c": "Chez {client} : répond aux poseurs et aux serristes, et suit les livraisons.",
+      "say": "Chez ONDEX, je réponds aux poseurs et aux serristes, et je préviens les clients d’un retard de livraison."
+     },
+     "Fin": {
+      "t": "Fin · agent client",
+      "role": "Expérience client",
+      "d": "Résout les parcours clients complexes sur tous les canaux.",
+      "sayG": "Je résous les parcours clients complexes sur tous les canaux.",
+      "c": "Chez {client} : mène les réclamations jusqu’à leur solution, sur tous les canaux.",
+      "say": "Chez ONDEX, je mène chaque réclamation jusqu’à l’avoir ou la relivraison, sur tous les canaux."
+     },
+     "Carter": {
+      "t": "Carter · agent d’achat",
+      "role": "Achat en ligne",
+      "d": "Aide à choisir, répond aux questions et finalise la commande dans le chat.",
+      "sayG": "J’aide à choisir, je réponds aux questions et je finalise la commande dans le chat.",
+      "c": "Chez {client} : aide les négoces à passer commande en ligne.",
+      "say": "Chez ONDEX, j’aide les négoces à composer leur commande en ligne et je réponds sur les délais."
+     },
+     "Paige": {
+      "t": "Paige · service IT et RH",
+      "role": "Service IT et RH",
+      "d": "Résout les demandes des collaborateurs dans Slack et les portails.",
+      "sayG": "Je résous les demandes des collaborateurs dans Slack et les portails."
+     },
+     "Marshall": {
+      "t": "Marshall · supply chain",
+      "role": "Supply chain",
+      "d": "Le super-agent du back-office : exécute chaque processus et trace chaque étape.",
+      "sayG": "J’exécute les processus de back-office de bout en bout et je trace chaque étape.",
+      "c": "Chez {client} : vérifie stock et planning, transforme les devis en commandes.",
+      "say": "Chez ONDEX, je vérifie le stock et le planning des lignes, et je transforme les devis acceptés en commandes."
+     }
+    },
+    "own": {
+     "usine": {
+      "say": "Je relie réclamations et lots, je partage le planning des lignes et j’aide l’ADV et la direction à suivre clients et marges."
+     },
+     "stock": {
+      "say": "Je transforme les devis en commandes, je suis chaque livraison et j’aide l’équipe export à piloter chaque pays."
+     },
+     "negoce": {
+      "say": "Je prépare les devis avec le stock et le planning, j’ouvre l’espace de commande et je suis chaque accord-cadre."
+     },
+     "chantier": {
+      "say": "Je prépare les visites, je suis les prescriptions jusqu’au chantier et je réponds aux poseurs sur le toit."
+     },
+     "agri": {
+      "say": "Je conseille serristes et éleveurs, je relance les contacts de salon et j’accompagne les projets ONDEX SOLAR."
+     }
+    },
+    "hub": {
+     "c": "Chez {client} : {stage} · {mode}."
+    },
+    "hubT": {
+     "iot": "Lignes d’extrusion : cadences, lots et état des équipements.",
+     "erp": "Commandes, stocks, tarifs et planning.",
+     "gis": "Zones de livraison, distances et franco.",
+     "billing": "Factures, avoirs et documents.",
+     "contact": "Téléphone et e-mails des clients.",
+     "hr": "Collaborateurs, dossiers, accès et demandes internes.",
+     "lake": "Contrôles qualité et indicateurs historiques."
+    },
+    "hubN": {
+     "iot": "MES",
+     "erp": "ERP",
+     "gis": "SIG",
+     "billing": "Facturation",
+     "contact": "Centre de contact",
+     "hr": "RH",
+     "lake": "Lac de données"
+    },
+    "modeN": {
+     "integrated": "intégré",
+     "federated": "fédéré (Zero Copy)"
+    }
+   },
+   "chip": {
+    "beta": "Bêta",
+    "pilot": "Pilote"
+   },
+   "lab": {
+    "integration": "Intégration",
+    "federation": "Fédération · Zero Copy",
+    "harmonization": "Harmonisation",
+    "memory": "Métadonnées et mémoire",
+    "apps": "Applications",
+    "semantics": "Sémantique",
+    "flows": "Processus et actions",
+    "pods": "Un agent par front de l’opération",
+    "own": "Agents de l’opération",
+    "ready": "Prêts à l’emploi",
+    "builder": "Tout agent peut être construit",
+    "ops": "Opérations",
+    "usesApps": "Applications utilisées",
+    "toolkit": "Headless Toolkit",
+    "port": {
+     "mcp": "MCP",
+     "api": "API",
+     "plugins": "Plug-ins",
+     "skills": "Skills"
+    },
+    "screen": {
+     "claude": "Claude · Salesforce dans Claude",
+     "slack": "Slack · Slackforce",
+     "lightning": "Agentforce Coworker",
+     "phone": "Mobile"
+    }
+   },
+   "spine": {
+    "marks": [
+     "Systèmes {qStage}",
+     "Intégration",
+     "Harmonisation",
+     "{qApp}",
+     "{qAgent}",
+     "Porte de confiance",
+     "{qModel} : juste ce qu’il faut, sans conservation",
+     "{qScreen}"
+    ],
+    "back": "La réponse revient comme nouveau contexte"
+   },
+   "screenUI": {
+    "ask": "Question",
+    "answer": "Réponse en direct",
+    "confirm": "Confirmer",
+    "channel": "# commerce",
+    "mobile": "Agentforce"
+   },
+   "chatUI": {
+    "hiJob": "Bonjour ! Je suis {name}, un agent Agentforce prêt à l’emploi.",
+    "hiOwn": "Bonjour ! Je suis l’agent {stage} d’{client}.",
+    "ownRole": "Conçu avec Agentforce pour {client}",
+    "ownDo": "Voici ce dont je m’occupe dans l’opération :",
+    "jobUC": "J’aide sur ces cas d’usage :",
+    "now": "En ce moment"
+   },
+   "ops": {
+    "face": [
+     "Operation 360",
+     "Applications, sémantique et processus"
+    ],
+    "dock": "Operation 360",
+    "dockT": "Operation 360 · Applications, sémantique et intelligence des processus",
+    "lvlD": "Les applications, la sémantique et les processus de l’opération.",
+    "l2": {
+     "title": "Là où vivent les règles de l’opération",
+     "text": "Les processus qui font déjà tourner le terrain, l’approvisionnement et les actifs : personnes et agents suivent le même chemin."
+    }
+   }
+  }
+ },
+ "sources": [
+  {
+   "title": "ONDEX · À propos",
+   "url": "https://www.ondex.com/a-propos/",
+   "note": "capital, depuis 1965, bi-orientation brevetée en 1964, >4× résistance, 2,4 kg/m² vs 7 (acier) et 12 (fibrociment), historique, AIAC 2025, ONDEX SOLAR"
+  },
+  {
+   "title": "ONDEX · Accueil",
+   "url": "https://www.ondex.com/",
+   "note": "16 gammes, 6 applications, DIFFU100 lumière 100 % diffusante"
+  },
+  {
+   "title": "ONDEX · Serres et jardineries",
+   "url": "https://www.ondex.com/application-serres-et-jardineries/",
+   "note": "3 gammes BIO, 4 nuances"
+  },
+  {
+   "title": "ONDEX · Communiqué ONDEX SOLAR",
+   "url": "https://www.ondex.com/wp-content/uploads/2026/01/CommPresse_SOLAR_Diffuse.pdf",
+   "note": "2,4 kg/m² vs jusqu’à 17 kg/m² fibrociment, FIX O Bat / FIX O Ser, certification ETN, partenariats installateurs"
+  },
+  {
+   "title": "La Gazette France, 25 juillet 2025",
+   "url": "https://www.lagazettefrance.fr/article/chevigny-saint-sauveur-renolit-ondex-rachetee-par-un-investisseur-industriel-americain",
+   "note": "site de 5 ha, environ 100 collaborateurs"
+  },
+  {
+   "title": "AIAC, 30 septembre 2025",
+   "url": "https://www.aiac.com/news/aiac-acquires-ondex-from-renolit-group",
+   "note": "acquisition, marchés, 122 sites dans 24 pays"
+  },
+  {
+   "title": "Témoignages clients",
+   "url": "https://www.salesforce.com/fr/customer-stories/",
+   "note": "Poclain, Air Liquide, Imerys, Schneider Electric, Etex, JK Cement, Siemens, Endress+Hauser, Fisher & Paykel ; Saint-Gobain sur mulesoft.com"
+  }
+ ],
+ "_note": "Generated by make_world.py — kits pvc_plant, pvc_stock, negoce, chantier, agri_serres live in assets/js/world/k6-ondex.js of the skill copy."
+}
