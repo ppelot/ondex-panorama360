@@ -11,7 +11,9 @@
  "brand": {
   "primary": "#0A3D54",
   "secondary": "#00697B",
-  "accent": "#00697B"
+  "accent": "#00697B",
+  "logo": "ondex-logo.png",
+  "logo_plate": true
  },
  "world": {
   "layout": "compact",
@@ -425,7 +427,7 @@
   "prev": "Cas d’usage précédent",
   "next": "Cas d’usage suivant",
   "estimate": "estimation",
-  "source": "Source",
+  "source": "Source ",
   "goTo": "Aller à",
   "explore": "Explorer le cas d’usage",
   "meta": "{n} fronts · {m} cas d’usage",
